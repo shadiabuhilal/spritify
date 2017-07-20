@@ -1,0 +1,15 @@
+.editorconfig
+.eslintrc.json
+.DS_Store
+.gitignore
+.travis.yml
+/node_modules/
+/docs/
+/artifacts/
+/build/
+/coverage/
+lcov-*
+xunit*
+/test/
+/__tests__/
+jsdoc-config.json

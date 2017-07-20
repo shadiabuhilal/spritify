@@ -1,0 +1,2341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`__tests__/build/css/style-a.css 1`] = `
+Object {
+  "content": "body {
+  padding: 50px;
+  font: 14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif;
+  background: #00B7FF;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.log {
+  background-image: url(\\"http://localhost:3000/images/logo.png\\");
+}
+
+/* spritify: ignore */
+
+.bg-1 {
+  background: url(\\"../images/bg/bg-1.png\\");
+  background-position: -100px -200px;
+  background-size: 500px 600px;
+  width: 100px;
+  height: 100px;
+  color: red;
+}
+
+.bg-2 {
+  /*
+  spritify : ignore
+  */
+  background-image: url(\\"../images/bg/bg-2.png\\");
+  background-color: blue;
+}
+
+.icon-home2 {
+  /*spritify:ignore*/
+  background-image: url(\\"../img/icons/icon-home.png\\");
+  background-position: -100px -200px;
+  background-size: 500px 600px;
+  width: 100px;
+  height: 100px;
+  color: red;
+}
+
+.icon-home,
+.icon-info,
+.icon-settings {
+  background-image: url('../images/sprite.png');
+  background-size: 196px 295px;
+  background-repeat: no-repeat;
+}
+
+.icon-home {
+  background-position: 0 0;
+  width: 50px;
+  height: 50px;
+  color: red;
+}
+
+.base64-image {
+  background: url(data:image/gif;base64,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);
+}
+
+.icon-info {
+  background-color: yellow;
+  background-position: 0 -60px;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-settings {
+  width: 50px;
+  height: 50px;
+  background-position: 0 -120px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), not all, not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .log {
+    background-image: url(\\"https://localhost:3000/images/logo@2x.png\\");
+  }
+
+  .icon-home,
+  .icon-info,
+  .icon-settings {
+    background-image: url('../images/sprite@2x.png');
+    background-size: 50px 200px;
+    background-repeat: no-repeat;
+  }
+
+  .icon-home {
+    background-position: 0 0;
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon-info {
+    background-position: 0 -50px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon-settings {
+    background-color: gray;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    background-position: 0 -100px;
+  }
+}
+
+.links {
+  color: #00B7FF;
+}",
+  "desPath": "__tests__/build/css/style-a.css",
+}
+`;
+
+exports[`__tests__/build/css/style-a.css.json 1`] = `
+Object {
+  "content": "{
+    \\"type\\": \\"stylesheet\\",
+    \\"stylesheet\\": {
+        \\"rules\\": [
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\"body\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"padding\\",
+                        \\"value\\": \\"50px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 2,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 2,
+                                \\"column\\": 16
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"font\\",
+                        \\"value\\": \\"14px \\\\\\"Lucida Grande\\\\\\", Helvetica, Arial, sans-serif\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 3,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 3,
+                                \\"column\\": 59
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"#00B7FF\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 4,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 4,
+                                \\"column\\": 22
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 5,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\"a\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"color\\",
+                        \\"value\\": \\"#00B7FF\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 8,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 8,
+                                \\"column\\": 17
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 7,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 9,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"display\\",
+                        \\"value\\": \\"inline-block\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 12,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 12,
+                                \\"column\\": 24
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 11,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 13,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".log\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-image\\",
+                        \\"value\\": \\"url(\\\\\\"http://localhost:3000/images/logo.png\\\\\\")\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 16,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 16,
+                                \\"column\\": 65
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 15,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 17,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"comment\\",
+                \\"comment\\": \\" spritify: ignore \\",
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 20,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 20,
+                        \\"column\\": 23
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".bg-1\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"url(\\\\\\"../images/bg/bg-1.png\\\\\\")\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 22,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 22,
+                                \\"column\\": 43
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-position\\",
+                        \\"value\\": \\"-100px -200px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 23,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 23,
+                                \\"column\\": 37
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-size\\",
+                        \\"value\\": \\"500px 600px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 24,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 24,
+                                \\"column\\": 31
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"width\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 25,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 25,
+                                \\"column\\": 15
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"height\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 26,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 26,
+                                \\"column\\": 16
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"color\\",
+                        \\"value\\": \\"red\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 27,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 27,
+                                \\"column\\": 13
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 21,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 28,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".bg-2\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"comment\\",
+                        \\"comment\\": \\"\\\\n  spritify : ignore\\\\n  \\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 32,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 34,
+                                \\"column\\": 5
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-image\\",
+                        \\"value\\": \\"url(\\\\\\"../images/bg/bg-2.png\\\\\\")\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 35,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 35,
+                                \\"column\\": 49
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-color\\",
+                        \\"value\\": \\"blue\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 36,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 36,
+                                \\"column\\": 25
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 31,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 37,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-home2\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"comment\\",
+                        \\"comment\\": \\"spritify:ignore\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 40,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 40,
+                                \\"column\\": 22
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-image\\",
+                        \\"value\\": \\"url(\\\\\\"../img/icons/icon-home.png\\\\\\")\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 41,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 41,
+                                \\"column\\": 54
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-position\\",
+                        \\"value\\": \\"-100px -200px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 42,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 42,
+                                \\"column\\": 37
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-size\\",
+                        \\"value\\": \\"500px 600px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 43,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 43,
+                                \\"column\\": 31
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"width\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 44,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 44,
+                                \\"column\\": 15
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"height\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 45,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 45,
+                                \\"column\\": 16
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"color\\",
+                        \\"value\\": \\"red\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 46,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 46,
+                                \\"column\\": 13
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 39,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 47,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-home\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-image\\",
+                        \\"value\\": \\"url(\\\\\\"../img/icons/icon-home.png\\\\\\")\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 50,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 50,
+                                \\"column\\": 54
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-position\\",
+                        \\"value\\": \\"-100px -200px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 51,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 51,
+                                \\"column\\": 37
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-size\\",
+                        \\"value\\": \\"500px 600px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 52,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 52,
+                                \\"column\\": 31
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"width\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 53,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 53,
+                                \\"column\\": 15
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"height\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 54,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 54,
+                                \\"column\\": 16
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"color\\",
+                        \\"value\\": \\"red\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 55,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 55,
+                                \\"column\\": 13
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 49,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 56,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".base64-image\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"url(data:image/gif;base64,R0lGODlhPQBEAPeoAJosM//AwO/AwHVYZ/z595kzAP/s7P+goOXMv8+fhw/v739/f+8PD98fH/8mJl+fn/9ZWb8/PzWlwv///6wWGbImAPgTEMImIN9gUFCEm/gDALULDN8PAD6atYdCTX9gUNKlj8wZAKUsAOzZz+UMAOsJAP/Z2ccMDA8PD/95eX5NWvsJCOVNQPtfX/8zM8+QePLl38MGBr8JCP+zs9myn/8GBqwpAP/GxgwJCPny78lzYLgjAJ8vAP9fX/+MjMUcAN8zM/9wcM8ZGcATEL+QePdZWf/29uc/P9cmJu9MTDImIN+/r7+/vz8/P8VNQGNugV8AAF9fX8swMNgTAFlDOICAgPNSUnNWSMQ5MBAQEJE3QPIGAM9AQMqGcG9vb6MhJsEdGM8vLx8fH98AANIWAMuQeL8fABkTEPPQ0OM5OSYdGFl5jo+Pj/+pqcsTE78wMFNGQLYmID4dGPvd3UBAQJmTkP+8vH9QUK+vr8ZWSHpzcJMmILdwcLOGcHRQUHxwcK9PT9DQ0O/v70w5MLypoG8wKOuwsP/g4P/Q0IcwKEswKMl8aJ9fX2xjdOtGRs/Pz+Dg4GImIP8gIH0sKEAwKKmTiKZ8aB/f39Wsl+LFt8dgUE9PT5x5aHBwcP+AgP+WltdgYMyZfyywz78AAAAAAAD///8AAP9mZv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAKgALAAAAAA9AEQAAAj/AFEJHEiwoMGDCBMqXMiwocAbBww4nEhxoYkUpzJGrMixogkfGUNqlNixJEIDB0SqHGmyJSojM1bKZOmyop0gM3Oe2liTISKMOoPy7GnwY9CjIYcSRYm0aVKSLmE6nfq05QycVLPuhDrxBlCtYJUqNAq2bNWEBj6ZXRuyxZyDRtqwnXvkhACDV+euTeJm1Ki7A73qNWtFiF+/gA95Gly2CJLDhwEHMOUAAuOpLYDEgBxZ4GRTlC1fDnpkM+fOqD6DDj1aZpITp0dtGCDhr+fVuCu3zlg49ijaokTZTo27uG7Gjn2P+hI8+PDPERoUB318bWbfAJ5sUNFcuGRTYUqV/3ogfXp1rWlMc6awJjiAAd2fm4ogXjz56aypOoIde4OE5u/F9x199dlXnnGiHZWEYbGpsAEA3QXYnHwEFliKAgswgJ8LPeiUXGwedCAKABACCN+EA1pYIIYaFlcDhytd51sGAJbo3onOpajiihlO92KHGaUXGwWjUBChjSPiWJuOO/LYIm4v1tXfE6J4gCSJEZ7YgRYUNrkji9P55sF/ogxw5ZkSqIDaZBV6aSGYq/lGZplndkckZ98xoICbTcIJGQAZcNmdmUc210hs35nCyJ58fgmIKX5RQGOZowxaZwYA+JaoKQwswGijBV4C6SiTUmpphMspJx9unX4KaimjDv9aaXOEBteBqmuuxgEHoLX6Kqx+yXqqBANsgCtit4FWQAEkrNbpq7HSOmtwag5w57GrmlJBASEU18ADjUYb3ADTinIttsgSB1oJFfA63bduimuqKB1keqwUhoCSK374wbujvOSu4QG6UvxBRydcpKsav++Ca6G8A6Pr1x2kVMyHwsVxUALDq/krnrhPSOzXG1lUTIoffqGR7Goi2MAxbv6O2kEG56I7CSlRsEFKFVyovDJoIRTg7sugNRDGqCJzJgcKE0ywc0ELm6KBCCJo8DIPFeCWNGcyqNFE06ToAfV0HBRgxsvLThHn1oddQMrXj5DyAQgjEHSAJMWZwS3HPxT/QMbabI/iBCliMLEJKX2EEkomBAUCxRi42VDADxyTYDVogV+wSChqmKxEKCDAYFDFj4OmwbY7bDGdBhtrnTQYOigeChUmc1K3QTnAUfEgGFgAWt88hKA6aCRIXhxnQ1yg3BCayK44EWdkUQcBByEQChFXfCB776aQsG0BIlQgQgE8qO26X1h8cEUep8ngRBnOy74E9QgRgEAC8SvOfQkh7FDBDmS43PmGoIiKUUEGkMEC/PJHgxw0xH74yx/3XnaYRJgMB8obxQW6kL9QYEJ0FIFgByfIL7/IQAlvQwEpnAC7DtLNJCKUoO/w45c44GwCXiAFB/OXAATQryUxdN4LfFiwgjCNYg+kYMIEFkCKDs6PKAIJouyGWMS1FSKJOMRB/BoIxYJIUXFUxNwoIkEKPAgCBZSQHQ1A2EWDfDEUVLyADj5AChSIQW6gu10bE/JG2VnCZGfo4R4d0sdQoBAHhPjhIB94v/wRoRKQWGRHgrhGSQJxCS+0pCZbEhAAOw==)\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 59,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 59,
+                                \\"column\\": 2646
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 58,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 60,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-info\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"#ffffff url(\\\\\\"../img/icons/icon-info.jpg\\\\\\") no-repeat right top\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 63,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 63,
+                                \\"column\\": 76
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-color\\",
+                        \\"value\\": \\"yellow\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 64,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 64,
+                                \\"column\\": 27
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 62,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 65,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-settings\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"url(../img/icons/icon-settings.GIF) no-repeat 0 0\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 68,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 68,
+                                \\"column\\": 64
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"width\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 69,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 69,
+                                \\"column\\": 15
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"height\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 70,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 70,
+                                \\"column\\": 16
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 67,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 71,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"media\\",
+                \\"media\\": \\"only screen and (-webkit-min-device-pixel-ratio: 2), not all, not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx)\\",
+                \\"rules\\": [
+                    {
+                        \\"type\\": \\"rule\\",
+                        \\"selectors\\": [
+                            \\".log\\"
+                        ],
+                        \\"declarations\\": [
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"background-image\\",
+                                \\"value\\": \\"url(\\\\\\"https://localhost:3000/images/logo@2x.png\\\\\\")\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 76,
+                                        \\"column\\": 5
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 76,
+                                        \\"column\\": 71
+                                    }
+                                }
+                            }
+                        ],
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 75,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 77,
+                                \\"column\\": 4
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"rule\\",
+                        \\"selectors\\": [
+                            \\".icon-home\\"
+                        ],
+                        \\"declarations\\": [
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"background\\",
+                                \\"value\\": \\"#ffffff url(\\\\\\"../img/icons@2x/icon-home@2x.png\\\\\\") no-repeat right top\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 80,
+                                        \\"column\\": 5
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 80,
+                                        \\"column\\": 84
+                                    }
+                                }
+                            },
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"background-position\\",
+                                \\"value\\": \\"-100px -200px\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 81,
+                                        \\"column\\": 5
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 81,
+                                        \\"column\\": 39
+                                    }
+                                }
+                            },
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"width\\",
+                                \\"value\\": \\"100px\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 82,
+                                        \\"column\\": 5
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 82,
+                                        \\"column\\": 17
+                                    }
+                                }
+                            },
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"height\\",
+                                \\"value\\": \\"100px\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 83,
+                                        \\"column\\": 5
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 83,
+                                        \\"column\\": 18
+                                    }
+                                }
+                            }
+                        ],
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 79,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 84,
+                                \\"column\\": 4
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"rule\\",
+                        \\"selectors\\": [
+                            \\".icon-info\\"
+                        ],
+                        \\"declarations\\": [
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"background\\",
+                                \\"value\\": \\"#ffffff url(\\\\\\"../img/icons@2x/icon-info@2x.png\\\\\\") no-repeat right top\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 88,
+                                        \\"column\\": 5
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 88,
+                                        \\"column\\": 84
+                                    }
+                                }
+                            }
+                        ],
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 87,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 89,
+                                \\"column\\": 4
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"rule\\",
+                        \\"selectors\\": [
+                            \\".icon-settings\\"
+                        ],
+                        \\"declarations\\": [
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"background-color\\",
+                                \\"value\\": \\"gray\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 92,
+                                        \\"column\\": 5
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 92,
+                                        \\"column\\": 27
+                                    }
+                                }
+                            },
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"margin\\",
+                                \\"value\\": \\"20px\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 93,
+                                        \\"column\\": 5
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 93,
+                                        \\"column\\": 17
+                                    }
+                                }
+                            },
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"background\\",
+                                \\"value\\": \\"url(../img/icons@2x/icon-settings@2x.png) no-repeat 0 0\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 94,
+                                        \\"column\\": 5
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 94,
+                                        \\"column\\": 72
+                                    }
+                                }
+                            },
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"width\\",
+                                \\"value\\": \\"100px\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 95,
+                                        \\"column\\": 5
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 95,
+                                        \\"column\\": 17
+                                    }
+                                }
+                            },
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"height\\",
+                                \\"value\\": \\"100px\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 96,
+                                        \\"column\\": 5
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 96,
+                                        \\"column\\": 18
+                                    }
+                                }
+                            }
+                        ],
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 91,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 97,
+                                \\"column\\": 4
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 73,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 99,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".links\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"color\\",
+                        \\"value\\": \\"#00B7FF\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 102,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 102,
+                                \\"column\\": 17
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 101,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 103,
+                        \\"column\\": 2
+                    }
+                }
+            }
+        ],
+        \\"parsingErrors\\": []
+    }
+}",
+  "desPath": "__tests__/build/css/style-a.css.json",
+}
+`;
+
+exports[`__tests__/build/css/style-b.css 1`] = `
+Object {
+  "content": "body {
+  padding: 50px;
+  background: #00B7FF;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon-home {
+  background-image: url('../images/sprite.png');
+  background-position: 0 0;
+  background-size: 196px 295px;
+  width: 50px;
+  height: 50px;
+  color: red;
+  background-repeat: no-repeat;
+}
+
+.icon-error {
+  background-image: url(\\"../img/icons/icon-error.png\\");
+  width: 50px;
+  height: 50px;
+}
+
+.car {
+  background-image: url(\\"../img/car.png\\");
+  width: 175px;
+  height: 70px;
+}
+
+.icon-info {
+  background: url('../images/sprite.png');
+  background-color: yellow;
+  background-size: 196px 295px;
+  background-repeat: no-repeat;
+  background-position: 0 -60px;
+  width: 50px;
+  height: 50px;
+}
+
+.error {
+  color: #ff0000;
+}",
+  "desPath": "__tests__/build/css/style-b.css",
+}
+`;
+
+exports[`__tests__/build/css/style-b.css.json 1`] = `
+Object {
+  "content": "{
+    \\"type\\": \\"stylesheet\\",
+    \\"stylesheet\\": {
+        \\"rules\\": [
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\"body\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"padding\\",
+                        \\"value\\": \\"50px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 2,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 2,
+                                \\"column\\": 16
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"#00B7FF\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 3,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 3,
+                                \\"column\\": 22
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 4,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"display\\",
+                        \\"value\\": \\"inline-block\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 7,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 7,
+                                \\"column\\": 24
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 6,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 8,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-home\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-image\\",
+                        \\"value\\": \\"url(\\\\\\"../img/icons/icon-home.png\\\\\\")\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 11,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 11,
+                                \\"column\\": 54
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-position\\",
+                        \\"value\\": \\"-100px -200px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 12,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 12,
+                                \\"column\\": 37
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-size\\",
+                        \\"value\\": \\"500px 600px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 13,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 13,
+                                \\"column\\": 31
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"width\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 14,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 14,
+                                \\"column\\": 15
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"height\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 15,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 15,
+                                \\"column\\": 16
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"color\\",
+                        \\"value\\": \\"red\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 16,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 16,
+                                \\"column\\": 13
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 10,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 17,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-error\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-image\\",
+                        \\"value\\": \\"url(\\\\\\"../img/icons/icon-error.png\\\\\\")\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 20,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 20,
+                                \\"column\\": 55
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"width\\",
+                        \\"value\\": \\"50px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 21,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 21,
+                                \\"column\\": 14
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"height\\",
+                        \\"value\\": \\"50px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 22,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 22,
+                                \\"column\\": 15
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 19,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 23,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".car\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-image\\",
+                        \\"value\\": \\"url(\\\\\\"../img/car.png\\\\\\")\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 26,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 26,
+                                \\"column\\": 42
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"width\\",
+                        \\"value\\": \\"175px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 27,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 27,
+                                \\"column\\": 15
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"height\\",
+                        \\"value\\": \\"70px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 28,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 28,
+                                \\"column\\": 15
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 25,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 29,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-info\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"#ffffff url(\\\\\\"../img/icons/icon-info.jpg\\\\\\") no-repeat right top\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 32,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 32,
+                                \\"column\\": 76
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-color\\",
+                        \\"value\\": \\"yellow\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 33,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 33,
+                                \\"column\\": 27
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 31,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 34,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".error\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"color\\",
+                        \\"value\\": \\"#ff0000\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 37,
+                                \\"column\\": 5
+                            },
+                            \\"end\\": {
+                                \\"line\\": 37,
+                                \\"column\\": 19
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 36,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 38,
+                        \\"column\\": 2
+                    }
+                }
+            }
+        ],
+        \\"parsingErrors\\": []
+    }
+}",
+  "desPath": "__tests__/build/css/style-b.css.json",
+}
+`;
+
+exports[`__tests__/build/css/style-c.min.css 1`] = `
+Object {
+  "content": "body {
+  padding: 50px;
+  font: 14px \\"Lucida Grande\\",Helvetica,Arial,sans-serif;
+  background: #00B7FF;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon-home {
+  background-image: url('../images/sprite.png');
+  background-position: 0 0;
+  background-size: 196px 295px;
+  width: 50px;
+  height: 50px;
+  color: red;
+  background-repeat: no-repeat;
+}
+
+.icon-info {
+  background: url('../images/sprite.png');
+  background-size: 196px 295px;
+  background-repeat: no-repeat;
+  background-position: 0 -60px;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-settings {
+  background: url('../images/sprite.png');
+  width: 50px;
+  height: 50px;
+  background-size: 196px 295px;
+  background-repeat: no-repeat;
+  background-position: 0 -120px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),not all,not all,not all,only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx) {
+  .icon-home {
+    background: url('../images/sprite@2x.png');
+    width: 50px;
+    height: 50px;
+    background-size: 50px 200px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  .icon-info {
+    background: url('../images/sprite@2x.png');
+    background-size: 50px 200px;
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon-settings {
+    margin: 20px;
+    background: url('../images/sprite@2x.png');
+    width: 50px;
+    height: 50px;
+    background-size: 50px 200px;
+    background-repeat: no-repeat;
+    background-position: 0 -100px;
+  }
+}
+
+.links {
+  color: #00B7FF;
+}",
+  "desPath": "__tests__/build/css/style-c.min.css",
+}
+`;
+
+exports[`__tests__/build/css/style-c.min.css.json 1`] = `
+Object {
+  "content": "{
+    \\"type\\": \\"stylesheet\\",
+    \\"stylesheet\\": {
+        \\"rules\\": [
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\"body\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"padding\\",
+                        \\"value\\": \\"50px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 6
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 18
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"font\\",
+                        \\"value\\": \\"14px \\\\\\"Lucida Grande\\\\\\",Helvetica,Arial,sans-serif\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 19
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 71
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"#00B7FF\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 72
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 90
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 91
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\"a\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"color\\",
+                        \\"value\\": \\"#00B7FF\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 93
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 106
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 91
+                    },
+                    \\"end\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 107
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"display\\",
+                        \\"value\\": \\"inline-block\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 113
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 133
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 107
+                    },
+                    \\"end\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 134
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-home\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-image\\",
+                        \\"value\\": \\"url(../img/icons/icon-home.png)\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 145
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 193
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-position\\",
+                        \\"value\\": \\"-100px -200px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 194
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 227
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-size\\",
+                        \\"value\\": \\"500px 600px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 228
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 255
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"width\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 256
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 267
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"height\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 268
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 280
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"color\\",
+                        \\"value\\": \\"red\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 281
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 290
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 134
+                    },
+                    \\"end\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 291
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-info\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"url(../img/icons/icon-info.jpg) right top no-repeat #ff0\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 302
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 369
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 291
+                    },
+                    \\"end\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 370
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-settings\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"url(../img/icons/icon-settings.GIF) no-repeat\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 385
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 441
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"width\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 442
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 453
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"height\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 454
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 466
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 370
+                    },
+                    \\"end\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 467
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"media\\",
+                \\"media\\": \\"only screen and (-webkit-min-device-pixel-ratio:2),not all,not all,not all,only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx)\\",
+                \\"rules\\": [
+                    {
+                        \\"type\\": \\"rule\\",
+                        \\"selectors\\": [
+                            \\".icon-home\\"
+                        ],
+                        \\"declarations\\": [
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"background\\",
+                                \\"value\\": \\"url(../img/icons@2x/icon-home@2x.png) -100px -200px no-repeat #fff\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 639
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 716
+                                    }
+                                }
+                            },
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"width\\",
+                                \\"value\\": \\"100px\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 717
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 728
+                                    }
+                                }
+                            },
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"height\\",
+                                \\"value\\": \\"100px\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 729
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 741
+                                    }
+                                }
+                            }
+                        ],
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 628
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 742
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"rule\\",
+                        \\"selectors\\": [
+                            \\".icon-info\\"
+                        ],
+                        \\"declarations\\": [
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"background\\",
+                                \\"value\\": \\"url(../img/icons@2x/icon-info@2x.png) right top no-repeat #fff\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 753
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 826
+                                    }
+                                }
+                            }
+                        ],
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 742
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 827
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"rule\\",
+                        \\"selectors\\": [
+                            \\".icon-settings\\"
+                        ],
+                        \\"declarations\\": [
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"margin\\",
+                                \\"value\\": \\"20px\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 842
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 853
+                                    }
+                                }
+                            },
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"background\\",
+                                \\"value\\": \\"url(../img/icons@2x/icon-settings@2x.png) no-repeat\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 854
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 916
+                                    }
+                                }
+                            },
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"width\\",
+                                \\"value\\": \\"100px\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 917
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 928
+                                    }
+                                }
+                            },
+                            {
+                                \\"type\\": \\"declaration\\",
+                                \\"property\\": \\"height\\",
+                                \\"value\\": \\"100px\\",
+                                \\"position\\": {
+                                    \\"start\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 929
+                                    },
+                                    \\"end\\": {
+                                        \\"line\\": 1,
+                                        \\"column\\": 941
+                                    }
+                                }
+                            }
+                        ],
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 827
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 942
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 467
+                    },
+                    \\"end\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 943
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".links\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"color\\",
+                        \\"value\\": \\"#00B7FF\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 950
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 963
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 943
+                    },
+                    \\"end\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 964
+                    }
+                }
+            }
+        ],
+        \\"parsingErrors\\": []
+    }
+}",
+  "desPath": "__tests__/build/css/style-c.min.css.json",
+}
+`;
+
+exports[`__tests__/build/other/sprite.png.json 1`] = `
+Object {
+  "content": "{
+    \\"coordinates\\": {
+        \\"__tests__/fixtures/img/icons/icon-home.png\\": {
+            \\"x\\": 0,
+            \\"y\\": 0,
+            \\"width\\": 50,
+            \\"height\\": 50,
+            \\"inline\\": \\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzABhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3SPVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADqYAAAOpgAABdvkl/FRgAAApJJREFUeNrs2jtoFFEUxvHf5qEJJr7Q4AMFLUQUgqSwETH4wk6w0FYlhS9QiAgJFmKRICpaiBY2NooEBAstxMIHtqII0ZjOQoNWwSQQIyY2NxiSnX24md0xzml2dmbvnfnPPd855x42MzExYS5YlTliKUgKEpNlLG6La+6V6MAnXMN4nCA1Mc3bivPYFb5vxhW8/1dcaxPu49kUCDiCXtzGhiSDLA1vvBeHcvyuDR9wE+uTBnIyALQXcc/j6MN1rK00yAG8wQ2s+IvxtTgdgC5jVblBtuMpHmDLLLzMepwNQF1YHjfIRtzDS+yOQa+NIVx/xAUsKWZwtbqWfL9ZhIu4i+Yy5Lb6EL6PYh7eYqxUkGPowT5kypysF2AnDqM66PFnsa61H69xq1QRzlKFcClo6ExYpbwg2/AED9EiWbYmlDp9IeRXZQPZisd4hb0Jrw/XhZD/FeeChlWra+kMmbYZvzASxDUWfLK2AvqYbhPhuX6E5xoPAHuCjgZr8Ah3MJRlggb0h89K2kio0YZnBCuWobYG73JMMBR3+V2gjWMg4tpgIWV8YwluNRZcYeYe6M8KDwe3mW7zp0WnTHiWoXLvR+AquiPc9Us4zuYuQobvSMLGCr5HvMGp5wZyjE3Mnr0uh7tmOy5kbNpFSUHwLUdIz3ZcyNiKiP0gmrKcnxpWuyJK9NZib5avr9WIzzlEWS4bwupK5ZEXeB6xIpM5ojvHiuxIimv1hGJURMKDzojrJ4oFiVPsTSXkkaY0/KYg0TZaQh4ZTVIeWRihgYZpjYXhiLGJAWnHqYj9yKT159iPJAZkXlTrJmJ1UrGnIClIBUEyCah8J0uZTClRa7KfVOkG3bA8/bVM+qeaFCQF+T9Afg8Ax+N44os5LY4AAAAASUVORK5CYII=\\"
+        },
+        \\"__tests__/fixtures/img/icons/icon-info.jpg\\": {
+            \\"x\\": 0,
+            \\"y\\": -60,
+            \\"width\\": 50,
+            \\"height\\": 50,
+            \\"inline\\": \\"data:image/png;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QMtaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Q0I1RDgyRjk1MzAzMTFFNzg3ODdBOERERTU3OEI2OEQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Q0I1RDgyRkE1MzAzMTFFNzg3ODdBOERERTU3OEI2OEQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpDQjVEODJGNzUzMDMxMUU3ODc4N0E4RERFNTc4QjY4RCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDQjVEODJGODUzMDMxMUU3ODc4N0E4RERFNTc4QjY4RCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx8BBwcHDQwNGBAQGBoVERUaHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fH//AABEIADIAMgMBEQACEQEDEQH/xACYAAACAwADAQAAAAAAAAAAAAAHCAAFBgIDCQQBAAIDAQEAAAAAAAAAAAAAAAMEAAIFAQYQAAIBAgQCBgYEDwAAAAAAAAECAwQFABESBiEHMUFRYRMIcYEiMiMUoWIzFZGxQlKCsiQ0dDV1hTZGNxEAAgIBAgQEBgMAAAAAAAAAAAECAxExBCFBEgVRgSIycaFCghMzYZGx/9oADAMBAAIRAxEAPwBqcQhj+YXNfZew6RZb7Wftcqlqa3QASVMo7QmY0r9ZiB34Yo207X6UUlNR1ALfPOXfHnYWLb1NBAD7D10kkzkdpWIwhfRqONSHaY/VL+gLvfJHy23zlbwjmU3Ow2+phz9paZp6dsu5neoH0YtLtMOTZxXsNXLfn9sTfMsdDBM1svT+7bKzJWc9fgyD2JPRwbuxm7jYzq46rxDQtUglYTCExCGF5x8zaXl9s+a6aVmulS3y9ppW6HnYE6nA46Ix7TeocM8M7Tbu2eOXMpZPpQh96vd2vl0qLrdqqSsuFW5knqJTmzE/QAOgAcAOAx6iEFFYWgk3kvOVtPs2p39aId5yCLbjyN82zsUjLBGMKyuOKxtJpDH8OQwHdOarfR7i9eM8S959UPLaj3ukWwZIXtxpUauSjfxaVKnUwyifNhxj0lgpyz788C2LscPWWtxyB1FLJFIksTmOSMhkdSQysDmCCOgjDoEc7y385KjelolsV8l17jtUYbxz71VTZhRKfroxCv25g9JOPO9w2n431R9r+Q3VZngw0Yzgwm/m43HPX8x4LPqPytmo41WPq8ap+LI3rTwx6seh7XXivPixS98QH40gJsOXOwrZvS4raW3HTWa71EoioaKpp55PmBp1ErKnw1PDIKxBPVhXc3yrWenKCwgmcua/Locvd1Lt37xF0cUsVTLOsXgBWlLDw9OqToCZ559eO7Xcflj1YwcshhmNwyDNjyh3VNtfmPY7qhPhCoWCpUH3oaj4Tg+gPn6RhfdVddbReDwz0Hx5QeEf80VHLT85LrK4IWrgpJoietRTpFw/SiOPS9teaV5id3uBPh4EbXkp/wBb2n/UY/xNhXe/ql8AlWpq/NZ/2Cq/gaT9VsA7Z+ovfqB/GiALTa1BUXDctqoadS89TVwRRqvE5tIBilksRb/g6lxPSTHjzQF7823Luoullo95W+IyVFoU09zVRmxpHbUknoikJz7mz6BjW7Xf0ycHz0+IC+OeIpeN0VCd5fdn7lvHMWy3i3ULz2qz1sclyrdSrHCuknIliCWI6AAcI7+6MYOLfFhqovOTV+a/Z25V3vNusULvt2Smpaf7xRlZFlXUuhwDqU5kZZjI4B2y6PT059Ra6L1ANjVFw8+VDl1UXbdj7vq4iLXZNSUjsPZlrJF05Dt8JGLHsJXGX3O/ph0LV/4Hpjl5G/xgDRxmhimieGZFkhkUpJG4DKysMirA8CCMRMgq/N3yr3Knq57zsOMVVDIS8ljLATQk8T4DMcnTsUnUOrVjc2vck1izXxFp0+AvlztN3tNU1Jc6SooKpCQ0E6PC4I7VYKcasZKSynkBxR009PVVMywU6SzzOckiTU7Me5RnnjraRM5DHyy8se8ty1MNZuKKSwWLgz+MNNZKvTpjhbimf50g4dhxn7juMILEfVL5BYUt6jf7e2/aNvWals1nplpLdRp4cEK9Q6SSTxZmJzZjxJ44wLLHN5erGksFjih0mIQmIQyO/wD7CP8AkHR/sHudP5Pdhij7vtKS8ip2F++j/Ef7B9ri9+n1/ccj5BEwoEJiEJiEP//Z\\"
+        },
+        \\"__tests__/fixtures/img/icons/icon-settings.GIF\\": {
+            \\"x\\": 0,
+            \\"y\\": -120,
+            \\"width\\": 50,
+            \\"height\\": 50,
+            \\"inline\\": \\"data:image/png;base64,R0lGODlhMgAyAPeeAAISZRIhb/X2+XiArf39/jE+gtbZ5ltlmwQUZg4dbe/w9SEveG12phYlceHj7R4sdhwqdVhimSIweQoZaiAud5SbvgERZQ0cbNze6t3f6rS50dPW5Pf4+uvs8zZDhQkYafn5+wwba73B1+bo8FZhmCY0e/Lz9zhEhnZ/rGNtoHN8qhAfblJdltHU4wcXaAgXaZGYvD1Jiaqvy/j4+3qCrqWryCk2fREgbneArGlypMfL3U9alMvO36asyWRuobu/1vz8/bO40YKKs8DE2QUVZ4uSuO7v9UhTkDA9gb7C1/P0+Fljmq6zzvT1+ENPjcLG2tDT4qyxzc/S4trc6aKoxklUkJmfwdnb6MrN3xMicHuDr3R9q5+lxYaOtVFclVdimS88gVBbldLV5DRBhKmuy7W60io3fpWcvwsaa2t0pTI/gq2yzfb3+jdEhd7g64ePtn+HsRgmc8TI2/Dx9hknc5KZvdTX5UVRjo2Uus7R4fr6/ODi7ISMtNja5+zt8wMTZlpkm7zA1pOavUJOjGpzpIGJsqSqyLC1z7G20O3u9F9pnsjL3rK30JCXvF1nnY6VunV+qzVChOnq8mVvoTNAg/v7/UtWkmx1piMxeTlFh8bK3ExXkp2jwwAQZP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4zLWMwMTEgNjYuMTQ1NjYxLCAyMDEyLzAyLzA2LTE0OjU2OjI3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkNCNUQ4MkZENTMwMzExRTc4Nzg3QThEREU1NzhCNjhEIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkNCNUQ4MkZFNTMwMzExRTc4Nzg3QThEREU1NzhCNjhEIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Q0I1RDgyRkI1MzAzMTFFNzg3ODdBOERERTU3OEI2OEQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6Q0I1RDgyRkM1MzAzMTFFNzg3ODdBOERERTU3OEI2OEQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAACeACwAAAAAMgAyAAAI/wA9CRxIsKDBgwgTKlzIsKHDhxAjOhRgQI8nP04SXEhQoINABXMkPtwwAAKYgRA6qewEReCOBjg2iFx4ZmWnRhmEWLB5ggkemxF0zESIZefKCTaTJuUzdGCSHAL3hFBKNSkABwIJzGSkUkWUGFXDrizkCcMJLhKtiF2rNMYClTUgLmJLt6qhh5KGSGAbokSBAiWmrl1RJiKOsA8YaHCg1RMBBxoYPAg7wGEOGp6UnKDaoEIThU0qNKDqROAIhVNULlFDlcXphiNYUB3k6EGLhCTEapGoJWwEhBnEVhY5IGyfg4rCHml6pGoKgzMOtKGaQEFTBQmUeuhhsDEcpUWaCv8skjSOx4Spba4QIN6TgBU2Icw4iAgKhzRJn7f3lCJphEOaFGTDBEgoJcN+nshAVQEFUUAVAAYgaAAASj1QUACcmYCgCaMlFUBBCFAlAYIC7ZUUEQUl8IFSC5DoyVtJTVBQFBjAQIRNARiBoBEYrhRGEmQglElSt+3Xgk0fJHKQVm6kZBMVCFJh0wtiHLSGF5goRQKCudlkAw1YFCRCVS+c11QHL1AlgkEwKoVCeyhQ9QAQBhVHFQIYNIVBiEoNV1BwnZjxR1IMDlWATQhEolIGCH2hAhtB3JDUATMdYNME3MHgQ0JKDLSDUpRGZKlNlAwEAkNXmJiUBzw4xIMHSt22IAIHDXWBhlgMRJiQAQzgyt5CP7AFQBUVPOGAAAI48EQFVVAo1hAOabBSAGOI5UIWWbgQ1gKA0KGSBhDV0IkLdhDwhlF12UTBFZ4EcYEVEgkyyUAXpJuUJR/JMZMCHHBQh7P2qoTAI6eKl0dSHwjBSQlJWbBFILLZhELBTVWiQwQrESJQsDbdIZAJzkYghYuebAAJBJcIxERSSAy0hA8ykTyQACN7ogIFAVwQAAWb0Cnzz0CTGBAAOw==\\"
+        },
+        \\"__tests__/fixtures/img/icons/tools/icon-wrench.png\\": {
+            \\"x\\": 0,
+            \\"y\\": -180,
+            \\"width\\": 50,
+            \\"height\\": 50,
+            \\"inline\\": \\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NzI5MTA3RDU1REMxMUU3ODY1RkZFNTFDNDkwOEY1RiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NzI5MTA3RTU1REMxMUU3ODY1RkZFNTFDNDkwOEY1RiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjY3MjkxMDdCNTVEQzExRTc4NjVGRkU1MUM0OTA4RjVGIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY3MjkxMDdDNTVEQzExRTc4NjVGRkU1MUM0OTA4RjVGIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Z+l67wAAAoRJREFUeNrsmk9IVEEcx2fNvEihp0BCEKSDaRmB/VlFsEAhDZHqkocuHYTqkEp/PAYJ6s1L0EE8RB086FUiQrRIBauTQmKJ/yIqKBMP1vr98X6Pxsfz7bq7M++3sj/48GZmx+V9mDfzdn5jJBaLqf0QOWqfRFYkK2IocvVKpPCm9/MroA3QivAdvAQvwO8wbzr282mwiE/kgzqtfg00ADL+kUmP1iCoB+NaWwt4BwoybY6MghpwCrzitlIwIFnkUEDf9+Ay+MP1ZlAmVeQNaA/oTxJLWr1eqkg56AMlu/Q/6JkbeVJF3GX16i79b4AjWv2oVJFPfG316VsLejxtJ6WKDPK1AkyAu/xCfAZe+yy558ADCSIR/Wc83uwHcPkAju/xex6C7jDf7N4R+QsugKk9fvfjsEfG74X4FVSBO/x40QLwC3xjUZEyQW/2flANinh1KuZHbkGiTCI/UdZ5VDbBHDgvUSaZ/ciaRJlkN1biZFLZIYqSSXWrSzJRCTLp2LOvSpBJV/IhdJl0ZlFClUl3OsiV+WxbxkRea5VXM6syphJ01mVMZhqtyphOmVqTsZH7tSJjK4ntynwxJWMzG29UxvaxwoopmTDORxKV6ZQukqhMD+9IKavTIVUkUZlj4AToBW9VQJI97KO3eDLU/o/LZ8FzcFiiiCsT5U2aG5TsoLQtncOcBrPcfkk5p2UiRSiWlXM+6cYj5aRpt5RzLtOo/ufULkoWofiolRc9n82DW1wu9vvjXEEi+ojcB0NqZ2bziXIShBvSR2QGjHC5Egzz/NDjNuiSLkJxHUxymebFNBhjIfdetzJBhM4oz4B7PGdo6aUT5aZ49xrJ/ptTVsRMbAswALNon6ZY1nM/AAAAAElFTkSuQmCC\\"
+        },
+        \\"__tests__/fixtures/img/icons/logo.png\\": {
+            \\"x\\": 0,
+            \\"y\\": -240,
+            \\"width\\": 196,
+            \\"height\\": 55,
+            \\"inline\\": \\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAAA3CAIAAADcwnKLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowQkI1QUJCRjU1RjAxMUU3ODY1RkZFNTFDNDkwOEY1RiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowQkI1QUJDMDU1RjAxMUU3ODY1RkZFNTFDNDkwOEY1RiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjkzRjkyNDYwNTVEQzExRTc4NjVGRkU1MUM0OTA4RjVGIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjBCQjVBQkJFNTVGMDExRTc4NjVGRkU1MUM0OTA4RjVGIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+vyGsCAAANF1JREFUeNqsfQec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\\"
+        }
+    },
+    \\"width\\": 196,
+    \\"height\\": 295
+}",
+  "desPath": "__tests__/build/other/sprite.png.json",
+}
+`;
+
+exports[`__tests__/build/other/sprite@2x.png.json 1`] = `
+Object {
+  "content": "{
+    \\"coordinates\\": {
+        \\"__tests__/fixtures/img/icons@2x/icon-home@2x.png\\": {
+            \\"x\\": 0,
+            \\"y\\": 0,
+            \\"width\\": 100,
+            \\"height\\": 100,
+            \\"inline\\": \\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDNzc2MTU4MjUzMDIxMUU3QjBFNUM5MThDMEYzRkE2QyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDNzc2MTU4MzUzMDIxMUU3QjBFNUM5MThDMEYzRkE2QyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkVBRjJBQzg5NTJGRjExRTdCMEU1QzkxOEMwRjNGQTZDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkVBRjJBQzhBNTJGRjExRTdCMEU1QzkxOEMwRjNGQTZDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+HReqsgAAAvZJREFUeNrs3TtoFFEYxfGZIIJgsUKwXAik0UKwS2lpYeF2sbNQU8UiNhbiI4kxCj5AEDUIKigEAgYRRBARREVSCCqIIqKoiIoExAc+x3PhA1dhJZnc3bl35n/gMBDCJplf7nwzs7tJmmVZQsJJF7sAEAIIIAQQQAgggBBAACEBZVGM33S6bLP7RdqoblMn1SPZ7MSHMoCksd3LEsYabQ6pq5s+/F49qB4VzEdAOgOx0nb62v982jv1gHpMMJ8BaQ/Ecm12qVvmcYh9o+5TTwrmCyB+IJZoM6RuV5fmfJhX6rjBfAMk/8DeoI6pdU8P+0IdVU+HDhMUSIuB7TPP1BH1rGB+ANIaYoU2e9VGh77kE3VYPS+Yn4D8gejWZs88B7bPPLKvPymYX5UFsYG91QZ2LYD98MBWzJRgssqACCLVpt/OfOpJeLmn7lQvFgXT1UEMN7BvueN2oBguq9RpdUbf77pSrhD9YL129dxI4ssdd1Gq1XIlehAb2G75D6iLk7hz0/0sgrkWHYgg3M4fVHcEMrB95rrB3AgepGlgu+uJnqTcuWowt4MEEUafNofVvqRauWwzZiYIEBvY+21gp0k143bgJYO5WwiIIGo2IwZLMLB9wlxQdwvmfkdASj6wfcXdgpkymIdtAbGBvd6uJ3rZ53OGcRfBI4J57A2kwgPbV9xt/nPqsGCe5gYRRI+dwvZXeGD7zHf1jDoqmOdzBmFgtz3uGctT6phgXrYEsYE9YLc7utlvbc9X9YQ6LpjXf4EIo8HALizuVTHHDeZtmtQ2ueNZnf1SeD45mAXfOtHq4m28zVeHsxMLOgHixdaBBRBACCCAkLyJ8g07ec5k/j0b9PEYrBAOWQQQQAggBBBACCCAEEAAIYBUObH+NaAshMdghXDIIoAwQ+ILT1ARDlmAEEAIIIAQQAAhgABCAAGEFB+eoGKFEEAAIYAAQgABhAACCAGEAAIIAQQQAkjZE91/i2aFEEAAIYAQQAAhgABCACl1fgswAElXG/pEuf15AAAAAElFTkSuQmCC\\"
+        },
+        \\"__tests__/fixtures/img/icons@2x/icon-info@2x.png\\": {
+            \\"x\\": 0,
+            \\"y\\": -100,
+            \\"width\\": 100,
+            \\"height\\": 100,
+            \\"inline\\": \\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDNzc2MTU4NjUzMDIxMUU3QjBFNUM5MThDMEYzRkE2QyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDNzc2MTU4NzUzMDIxMUU3QjBFNUM5MThDMEYzRkE2QyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkM3NzYxNTg0NTMwMjExRTdCMEU1QzkxOEMwRjNGQTZDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkM3NzYxNTg1NTMwMjExRTdCMEU1QzkxOEMwRjNGQTZDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+cmyLNwAAB6VJREFUeNrsXX1o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\\"
+        },
+        \\"__tests__/fixtures/img/icons@2x/icon-settings@2x.png\\": {
+            \\"x\\": 0,
+            \\"y\\": -200,
+            \\"width\\": 100,
+            \\"height\\": 100,
+            \\"inline\\": \\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFQUYyQUM4NzUyRkYxMUU3QjBFNUM5MThDMEYzRkE2QyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFQUYyQUM4ODUyRkYxMUU3QjBFNUM5MThDMEYzRkE2QyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkVBRjJBQzg1NTJGRjExRTdCMEU1QzkxOEMwRjNGQTZDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkVBRjJBQzg2NTJGRjExRTdCMEU1QzkxOEMwRjNGQTZDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+0Zdo1gAAD0ZJREFUeNrsXQmQXEUZ7p3d3CTk4DAmQTaEI5BDVIIgxHjEqBHFoOKFUigxVYRCFKXkEo9wWATBwiqCChIhQIEBDCgSCVEqhJADQu6wGBIgrIHcx26y2R2/L/O9omsyR/ebN7tvXqar/prZ2Xlvuvvr/+y//1eTTqdNtcWnpapTUAWk2qqAVAGptiogyWh1ldLRmj4Xd8XLGNC3QB8EHQHqCeqmrzSBdoK2gFaD/gSand76hxZdb/C+CojnpPfGy+mgTqCXMIFvBf/D+2b8/1287QE6HtQl6/IeoqNBtaDdARi6/gAoAvBjoEX4bFsVkINB4CSOBX1SHPAB0O9Ai3N8fSuIk9jqIIq75Pnfh0APgjbit+fidY44afchDQgm4xS8fAE0HnS29S+Knv6g3vhOIyYqre/X4OVIiapC/eb3+vCeuGYBrt8eiCxxzrdB3UHDRZeCnsP/n8TrE/j+ig5doO3tqWPgJ+PlG6Cvg4bk+Ao7tBI0FfQ4aAeoTWBcBJooLqop8DMtusefQQ9Jt/AeZ4HuBB2b5/oG0EzQIwBmYaIBARBc1YeDPgr6iXRF1zxf3yfF/HfQAq3sT4DGaTJdOHsvaANoFWi7DIARArO2yLXrQH8BTQcwryUOENvCwXuKi0mgy0EDCqx0dmy3RFhKyrhbEc7Ibm3illaB2Mnx+jYtiJ+DqGc2B6KzonUIJp8Wz1YMZp9l7ezB54uknN9fYIL4+WGiUvysLiGu4yJ4irqFZnR7gVE2QKSAv8eVBXpaIij7d+PslDZJVG4DGG0V7akDjHq8/Fam6+epjPFZrfX/XvID+sYYlJp8egb9PxE0sCJ0CDoaKOwJ0gGBcvwX6G1QLylzWksjQZ1jzCH3gKaAGgMu0WL6kQyDafj8hdgCgs5+Fi8/A422Pt4Pore9HLRJgJwsS6lbjEUWAaB1dTfoWfW9tyxEOjTDQPNBNwKUp2IHCMA4Fy/XygvONbj9opS4ohKCmuzvG6CloP9JxBKIwZahsAT0K4DyWGwAERi/kI2ftJaWQdIiQyTXYnqF5nFUoJQECMD4DFcI6DRP/yBpjZxydRTiK1UCGNQFY7SCGk3xgF+S26mgH2JOTu0QQORnMD40HXSdXt8Six+KjVHodxgJwNx0KeVGdSHAOCBbwZ5v6O81sqL6mUwktWs7DH6LPP1doD2W40kZ313efW8p4j5l7g/1yzOgn8pETrcrIAp/2O/TAGWzQg3nlgEQWmmM3DJI+B+Zo29KTG7O9qTRl5QWx/tAdOCOkyk+VCZ31BYeJcVfowDDGxAM9gx1YHmejkWpRzaC/g2aBWLs63V7B7DAYmmT+CAtU7+nyff5COgc0MdNJo4WRdurvrZvLEs7e/Sw1+B9A7dUrX93lmLrHkGfKAoflYe/KoqdPAH5Kgl9/5u45QLQl0GDSrw9HdyT5Cjuz+LUFH57f1nMXvzAZMWoXpSpu1zyu4d8kGu1AmtDDmy3gLgDtNh3ICF0IRfjh0GTBUyPEhxIcjK3E/6rv3lvxvSOwzgejxwQmbj3asKb5AzNUXyKexrcDx9egv54VSDPbO+9bXH+BC2o40uIfc3XgloPOkYgU3JMwphWRg3Ir+n4WB+1ijtaFEboGpIzWqQjfolOL+1IuxVjHCkTnjqmU4hbtMrqa9Z89BCnTMHYrokMEHSUXvhDYsEoGwHl/vYt6PDbcXAmMFYmV1xhMjua3SO6LSPe57vu0buYgF8pAxi0yG4CXR8XMKT82Zfr1bedEd22XnNYuqeuVJ0JZeCMW8UZO03Mmvp0i/q4J6LbTtBclswhzJsaEuF4KWf/CLoNA2+KaxxEfbtNfY3CtxqiuQwPiKyP8RGPld78rXFM4cwByjZxSVQbUOM1p6E5hOmdZ0c4xtdpxWCg602FNPX1OvW9VMkwSu5BaEDGyIzbIVOulOwLyuIbMMAlpsKa+nxDSH0S5JYxx+ufJpMG6x86AWt1k9l3l25IS+F0vYYJSP5DpnOlNvadWZPnhViIjMM9oNetmNtOhWJydQU8z8mK09DJYSDu06Dvy5v12R2kKXkHOrGjUtFg3zGRDOmcaTKJ4C6NEoVBR+YK34977NJir/HmELV9yjjcjptskug6wWSCcT4ZI7NNJums0tsCjeU7HnqD2wQvBmAI3HQoHZK952Ey+w8rpE9cGzeTpsfZxPU0hadrTK76o1XhIeeWyqE/8n2X8Z0unuKK4YLFJjltscbk0hjbY27zUMxpZ3t+C8xxTg6hMj8qK/0zJYV+moe4Yhj6iUrwOTx9kyeMte9RBBCK9y+CRjPrnwpd89vZR4d81WQ2ombgBgtlKRCMz5lM5p5r+ieV+TyTvDZPY3PZ2DpcvscR4i7OJRPtuEn2sCsgtKK4ccMEgQbpDO5Pc1fsSA+RRWdqTQIBWaOxuQDCueonB/s0WV5c0Ot9ADnWZGL5QxWDSet7dZ76Y15cDlJGLLZ2Q3LM84xicO4Oy5pjZ5E1wJKBYbdjyVVrTXLbWvPeRlSYNsBHqR8VQYcpK9clGJB1prTQ/FE+gPSNoMNNcoqS2t7UGMO2vj6A9Iygw81yJJPaGj0dZOc5zgVIFAdpWuxwQQIV+y5fD9x1jst1cOZQyIQvyxhTeeR/2qJqi741+QDCzHLmxb4mejcEe9Yp3JLIprHVeXJTUDqK4m67jx/Cw/JMEw1KWvAIM5PHmDXhevaB3iiPAWxOKCZ9jHsIiQC8ZDKZnjyryBO89T6A8Djw/MDLZkUd3YhVc0501Dt0mPonGJD+jk7hPi1sHq9eJcuMHvsxPiJrpR3y0E4fz2MvMwdXZMjXGNEcZJLbBhm3zEbunTDf93nMY6OixTxp9rIPIBvzfOZSOMwGpD7BgNQ7AJKW3lgGIPZaCzxdyMtP5VFa2QqsXu6+qyJj3H9EggEZYdwSsvmdXqWavXRa+vDwog4wUl6OUSd8SmGMwvVHJtDC4phGuXzVZM45jsM1/azra0yBqHldHoV8mZRQYGWNlSLyCb8PkmU2N2GYnOKhHxki4cbeTgAxW+4EAeWhp91OgEDGMXeIh28usfSBb+Ewtn4CMmmAjNXYXCUQzdzvmsy5RuqUFZjjZ31DJ7SojhB1N+GqNPCaseUsZdQB4mqgAPGZjzqJ/VES/dt9dYgRS0XRyGmjE8QdozWmMIuzTo71ojCAPC8uKbVRH12IldUnAdzBMVxoSjuHv0xz6weIHJioZP+ZCr1UejtHYymlzS2WFlUoDDInooEwYeISrLDBFcwdg2Xk9CjxVkXntBAgNNOei2hMTIGZWMHcMVFjKKU9pzkNB4jiWU9mfRzUwd1n/DZoqNQuxUo7vwK5g32+1NGy4pwwTMIgYnZ245MuaVHFIrdMm2xQXIabKsy2YKCReUmrZcK5HuSh+XyVCmVWChjs61XGLW7FICyT0VkWl8fgGHLfovlp0FwW/02Hc+o3m8xZEf7ATAFCDmEiHfNWmSrpk6nCk0STsVoaYg4GkwR5JmScw9d3aJE+onkipzDT80sgVt27G+O90tVpKdb4IyxuyZod9wZHmdFhhpAb5bWyyL1r9QMO8EZc/2Pca0NMwWCY6EZHMDj53FnlKatHrH2ktZYT+LDrbxfdbFIFAh5te9Q+V67iMLSrFxr/lBgepJ+KTp8UQzDYp6nG/bB/iwB5OWsfqVncch/eL4oMEItL3srxORXYLhPuQCgHfDsm4KwYgcG+3O4BRqA/gsql2W2TdIqJFBDroSp253kto552HVvfRvk6Dfe6QGcnOgoI1kpk/axp6pNPo9g/ULnOPphjzZ1XupBPvSz7T0Z/KWdZ252FWoaY0nK89moy7sQAVrUzGEM1hh+EXFhpcQLr9s4wmZpZBIF1Kb2zN73q9goU1sziHglraDHYdpwJV84oV1sqYGZhMG+WGYiBCocQiJEl3q5VoCzRGHigZ45PnaxQgGgg9FpvMu/VyYo6/6pVhsL9oGei5hhxxKdM5vF79L5rI7p1WnqE3H4F+n1XqP6FAIQeK0v9XVZmaRKYk3NNpgzrQgxyXUgQgvORBGKMuLq2TP2mUXB52AqloUqNa4AsYTTBtE+jJccoKc1HJvGxJODrsvyYWRmYmwz+cVONB2KONZnjecMkZrm/fViZ+zlT3BH6bEzo2u8KK9xs8m9ApRXPaZVYi/KpOsHTFtosCqzGlPV7UTxBqM2KT9VKVOdS/qwpfGWpzxQptRg/nxkyxRz8mAqCwGxHHpBk9uLhWq0DIjQA2qPtV/yOYREqaJq1PBDLxXi0tcAiK8ZfjsdV8IYMiTwgp2ijwivc5Ketf0IZ5XeUrU0mLB/qMksLzE5aOE+gRPq4ipJZmh2RORw80KVZSvj3BMN6XBBXGLdBL5Y8j3uj983cAgZDVwd1hDGOLdJTw7TwbojygS6RyHR16GrJUaZJMs3lHbsuu7Yu+flWUxnnTvbJymu0izqrtBLFGHf/rokSjMgAUUcpP68Ue+fLXd1j3MpSxKGlZLV1zhNZeBBjfrocP2oiBIUWxvWBRZIV+2K4hfXhmetaCU/j6aL+nqRnudvRig0Ya1mqVJTl0atyHu0b08piJJWP1DvDuOUIt1qmbZhKErZyDradg4eSuVp6W6QPyfWL5f+02KWrKgKQrNWUkn5hIHK4ccvcaJLj96qcQtZaOVGvPhYagXhDZinlfndZg8NkWNQ4gMndQFbgfgBAvFJutizrs3C5khSm32TJ5GKtWQG6+0zm9BE3xRhZZlj8ayYT8nfhlMD85mMvnpL5TTHEWNZFCqEUs/YIJB9CcE971W0p+wPuZaFwz4NpMN8U1ReYRGaIc7t4urVd/JrCJP1l/7tkD1LxMkuQJ5hWWmbreukxxrN65uE4chND6TPCRGxjo9SLALNSTwlgWs1vTCYTI5eIoAM2P8d2MVf4C8a9pEWz4l4NOcxWPu8j15PlGtQ3Fs+/pr3BaBcOyQEMQ+sLsVJZv5Dlt1k9+2yLQ9pM7rOMQUzJVekFCc65TPBNuk8g+si9zEFjBbwVHWna1XXUD2vgK1R+lSn+TCcarTDLCHz+Ytb2Jz8fadyTnQMz+4BxEVhGMjQIOGsJr5azOjsutb3KamWFsMqoZE+XNfSYxQ0EgRtjk4z70ey09E6+0061vvvdieaQPFyzTbEjezUb814xtYXSMTyA2ldKuZtlKgfVEjYJjHXZVl+WnxO7FisOqbbKeIx2FZBqqwJSbWr/F2AApL5biRekmbwAAAAASUVORK5CYII=\\"
+        },
+        \\"__tests__/fixtures/img/icons@2x/tools/icon-wrench@2x.png\\": {
+            \\"x\\": 0,
+            \\"y\\": -300,
+            \\"width\\": 100,
+            \\"height\\": 100,
+            \\"inline\\": \\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5M0Y5MjQ1NjU1REMxMUU3ODY1RkZFNTFDNDkwOEY1RiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5M0Y5MjQ1NzU1REMxMUU3ODY1RkZFNTFDNDkwOEY1RiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjY3MjkxMDdGNTVEQzExRTc4NjVGRkU1MUM0OTA4RjVGIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY3MjkxMDgwNTVEQzExRTc4NjVGRkU1MUM0OTA4RjVGIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+qWtAIgAABfZJREFUeNrsnV+I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\\"
+        }
+    },
+    \\"width\\": 100,
+    \\"height\\": 400
+}",
+  "desPath": "__tests__/build/other/sprite@2x.png.json",
+}
+`;

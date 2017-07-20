@@ -1,0 +1,70 @@
+{
+  "name": "spritify",
+  "version": "1.0.2",
+  "description": "Create image sprite(s) from images and update css file(s) with new image sprite(s) details",
+  "main": "index.js",
+  "bin": {
+    "spritify": "./bin/spritify.js"
+  },
+  "scripts": {
+    "docs": "jsdoc -c ./jsdoc-config.json",
+    "lint": "eslint --fix ./*.js ./lib/*.js",
+    "pretest": "eslint --fix ./*.js ./lib/*.js",
+    "test": "jest --coverage --verbose",
+    "update-snapshots": "jest --coverage --verbose --u",
+    "test-index": "jest --coverage ./__tests__/index.spec.js",
+    "test-debug": "jest --coverage ./__tests__/index.debug.spec.js",
+    "test-svg": "jest --coverage ./__tests__/index.svg.spec.js",
+    "test-error": "jest --coverage ./__tests__/index.error.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shadiabuhilal/spritify/"
+  },
+  "keywords": [
+    "spritify",
+    "sprites",
+    "sprite",
+    "css",
+    "generate",
+    "sprites",
+    "generate",
+    "sprite",
+    "spritesheet",
+    "bundle",
+    "build",
+    "ci",
+    "icon",
+    "icons",
+    "svg",
+    "jpg",
+    "png",
+    "generator",
+    "retina"
+  ],
+  "author": "Shadi Abu Hilal <shadiabuhilal@gmail.com> (http://github.com/shadiabuhilal)",
+  "license": "BSD-3-Clause",
+  "jest": {
+    "coveragePathIgnorePatterns": ["/node_modules/", "bin/"],
+    "testRegex": "__tests__/.*\\.spec\\.js$"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-plugin-require-jsdoc": "^1.0.4",
+    "jest": "^20.0.4",
+    "jsdoc": "^3.5.1"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "chalk": "^1.1.3",
+    "coa": "^2.0.0",
+    "css": "^2.2.1",
+    "inquirer": "^3.2.0",
+    "json-stringify-safe": "^5.0.1",
+    "mkdirp": "^0.5.1",
+    "recursive-readdir": "^2.2.1",
+    "spritesmith": "^3.1.1",
+    "string-hash": "^1.1.3",
+    "svgo": "^0.7.2"
+  }
+}

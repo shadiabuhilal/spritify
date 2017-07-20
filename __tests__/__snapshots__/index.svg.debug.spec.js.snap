@@ -1,0 +1,984 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`__tests__/build/css/style-svg-a.css 1`] = `
+Object {
+  "content": "body {
+  padding: 50px;
+  font: 14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif;
+  background: #818100;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon-spiral,
+.icon-star,
+.icon-animation {
+  background-image: url('../images/sprite.svg');
+  background-size: 320px 448px;
+  background-repeat: no-repeat;
+}
+
+.icon-spiral {
+  background-position: 0 -320px;
+  width: 64px;
+  height: 64px;
+}
+
+.icon-star {
+  background-position: 0 -384px;
+  width: 64px;
+  height: 64px;
+}
+
+.icon-animation {
+  background-position: 0 0;
+  width: 320px;
+  height: 320px;
+}",
+  "desPath": "__tests__/build/css/style-svg-a.css",
+}
+`;
+
+exports[`__tests__/build/css/style-svg-a.css.json 1`] = `
+Object {
+  "content": "{
+    \\"type\\": \\"stylesheet\\",
+    \\"stylesheet\\": {
+        \\"rules\\": [
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\"body\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"padding\\",
+                        \\"value\\": \\"50px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 2,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 2,
+                                \\"column\\": 16
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"font\\",
+                        \\"value\\": \\"14px \\\\\\"Lucida Grande\\\\\\", Helvetica, Arial, sans-serif\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 3,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 3,
+                                \\"column\\": 59
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"#818100\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 4,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 4,
+                                \\"column\\": 22
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 5,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\"a\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"color\\",
+                        \\"value\\": \\"#00B7FF\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 8,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 8,
+                                \\"column\\": 17
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 7,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 9,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"display\\",
+                        \\"value\\": \\"inline-block\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 12,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 12,
+                                \\"column\\": 24
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 11,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 13,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-spiral\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"#ffffff url(\\\\\\"../img/svg/spiral.svg\\\\\\") no-repeat right top\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 16,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 16,
+                                \\"column\\": 71
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-position\\",
+                        \\"value\\": \\"-100px -200px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 17,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 17,
+                                \\"column\\": 37
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"width\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 18,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 18,
+                                \\"column\\": 15
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"height\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 19,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 19,
+                                \\"column\\": 16
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 15,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 20,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-star\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"#ffffff url(\\\\\\"../img/svg/star.svg\\\\\\") no-repeat right top\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 23,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 23,
+                                \\"column\\": 69
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-position\\",
+                        \\"value\\": \\"-100px -200px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 24,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 24,
+                                \\"column\\": 37
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"width\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 25,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 25,
+                                \\"column\\": 15
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"height\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 26,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 26,
+                                \\"column\\": 16
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 22,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 27,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-animation\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-image\\",
+                        \\"value\\": \\"url(\\\\\\"../img/svg/animation.svg\\\\\\")\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 30,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 30,
+                                \\"column\\": 52
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 29,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 31,
+                        \\"column\\": 2
+                    }
+                }
+            }
+        ],
+        \\"parsingErrors\\": []
+    }
+}",
+  "desPath": "__tests__/build/css/style-svg-a.css.json",
+}
+`;
+
+exports[`__tests__/build/css/style-svg-b.css 1`] = `
+Object {
+  "content": "body {
+  padding: 50px;
+  font: 14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif;
+  background: red;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon-spiral {
+  background: url('../images/sprite.svg');
+  background-size: 320px 448px;
+  background-repeat: no-repeat;
+  background-position: 0 -320px;
+  width: 64px;
+  height: 64px;
+}
+
+.icon-star {
+  background: url('../images/sprite.svg');
+  background-position: 0 -384px;
+  width: 64px;
+  height: 64px;
+  background-size: 320px 448px;
+  background-repeat: no-repeat;
+}
+
+a {
+  color: #00B7FF;
+}",
+  "desPath": "__tests__/build/css/style-svg-b.css",
+}
+`;
+
+exports[`__tests__/build/css/style-svg-b.css.json 1`] = `
+Object {
+  "content": "{
+    \\"type\\": \\"stylesheet\\",
+    \\"stylesheet\\": {
+        \\"rules\\": [
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\"body\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"padding\\",
+                        \\"value\\": \\"50px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 2,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 2,
+                                \\"column\\": 16
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"font\\",
+                        \\"value\\": \\"14px \\\\\\"Lucida Grande\\\\\\", Helvetica, Arial, sans-serif\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 3,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 3,
+                                \\"column\\": 59
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"red\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 4,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 4,
+                                \\"column\\": 18
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 5,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"display\\",
+                        \\"value\\": \\"inline-block\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 8,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 8,
+                                \\"column\\": 24
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 7,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 9,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-spiral\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"#ffffff url(\\\\\\"../img/svg/spiral.svg\\\\\\") no-repeat right top\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 12,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 12,
+                                \\"column\\": 71
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 11,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 13,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-star\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"#ffffff url(\\\\\\"../img/svg/star.svg\\\\\\") no-repeat right top\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 16,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 16,
+                                \\"column\\": 69
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background-position\\",
+                        \\"value\\": \\"-100px -200px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 17,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 17,
+                                \\"column\\": 37
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"width\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 18,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 18,
+                                \\"column\\": 15
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"height\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 19,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 19,
+                                \\"column\\": 16
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 15,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 20,
+                        \\"column\\": 2
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\"a\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"color\\",
+                        \\"value\\": \\"#00B7FF\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 23,
+                                \\"column\\": 3
+                            },
+                            \\"end\\": {
+                                \\"line\\": 23,
+                                \\"column\\": 17
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 22,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 24,
+                        \\"column\\": 2
+                    }
+                }
+            }
+        ],
+        \\"parsingErrors\\": []
+    }
+}",
+  "desPath": "__tests__/build/css/style-svg-b.css.json",
+}
+`;
+
+exports[`__tests__/build/css/style-svg-c.min.css 1`] = `
+Object {
+  "content": "body {
+  padding: 50px;
+  font: 14px \\"Lucida Grande\\",Helvetica,Arial,sans-serif;
+  background: red;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon-spiral {
+  background: url('../images/sprite.svg');
+  background-size: 320px 448px;
+  background-repeat: no-repeat;
+  background-position: 0 -320px;
+  width: 64px;
+  height: 64px;
+}
+
+.icon-star {
+  background: url('../images/sprite.svg');
+  width: 64px;
+  height: 64px;
+  background-size: 320px 448px;
+  background-repeat: no-repeat;
+  background-position: 0 -384px;
+}
+
+a {
+  color: #00B7FF;
+}",
+  "desPath": "__tests__/build/css/style-svg-c.min.css",
+}
+`;
+
+exports[`__tests__/build/css/style-svg-c.min.css.json 1`] = `
+Object {
+  "content": "{
+    \\"type\\": \\"stylesheet\\",
+    \\"stylesheet\\": {
+        \\"rules\\": [
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\"body\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"padding\\",
+                        \\"value\\": \\"50px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 6
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 18
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"font\\",
+                        \\"value\\": \\"14px \\\\\\"Lucida Grande\\\\\\",Helvetica,Arial,sans-serif\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 19
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 71
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"red\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 72
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 86
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 1
+                    },
+                    \\"end\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 87
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"display\\",
+                        \\"value\\": \\"inline-block\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 93
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 113
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 87
+                    },
+                    \\"end\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 114
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-spiral\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"url(../img/svg/spiral.svg) right top no-repeat #fff\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 127
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 189
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 114
+                    },
+                    \\"end\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 190
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\".icon-star\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"background\\",
+                        \\"value\\": \\"url(../img/svg/star.svg) -100px -200px no-repeat #fff\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 201
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 265
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"width\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 266
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 277
+                            }
+                        }
+                    },
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"height\\",
+                        \\"value\\": \\"100px\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 278
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 290
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 190
+                    },
+                    \\"end\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 291
+                    }
+                }
+            },
+            {
+                \\"type\\": \\"rule\\",
+                \\"selectors\\": [
+                    \\"a\\"
+                ],
+                \\"declarations\\": [
+                    {
+                        \\"type\\": \\"declaration\\",
+                        \\"property\\": \\"color\\",
+                        \\"value\\": \\"#00B7FF\\",
+                        \\"position\\": {
+                            \\"start\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 293
+                            },
+                            \\"end\\": {
+                                \\"line\\": 1,
+                                \\"column\\": 306
+                            }
+                        }
+                    }
+                ],
+                \\"position\\": {
+                    \\"start\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 291
+                    },
+                    \\"end\\": {
+                        \\"line\\": 1,
+                        \\"column\\": 307
+                    }
+                }
+            }
+        ],
+        \\"parsingErrors\\": []
+    }
+}",
+  "desPath": "__tests__/build/css/style-svg-c.min.css.json",
+}
+`;
+
+exports[`__tests__/build/other/sprite.svg.json 1`] = `
+Object {
+  "content": "{
+    \\"coordinates\\": {
+        \\"__tests__/fixtures/img/svg/animation.svg\\": {
+            \\"inline\\": \\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjMyMCIgdmlld0JveD0iMCAwIDMyMCAzMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZGVmcz48cGF0aCBpZD0iMTI0eGV6ai1iIj48YW5pbWF0ZSBpZD0iMTI0eGV6ai1hIiBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbiIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1jIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rMXMiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbisxcyIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1kIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rMnMiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbisycyIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1lIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rM3MiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbiszcyIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1mIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rNHMiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbis0cyIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1nIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rNXMiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbis1cyIvPjwvcGF0aD48L2RlZnM+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1iIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1iIiB0cmFuc2Zvcm09InJvdGF0ZSg2MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYiIgdHJhbnNmb3JtPSJyb3RhdGUoMTIwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1iIiB0cmFuc2Zvcm09InJvdGF0ZSgxODAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWIiIHRyYW5zZm9ybT0icm90YXRlKDI0MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYiIgdHJhbnNmb3JtPSJyb3RhdGUoMzAwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1jIiB0cmFuc2Zvcm09InJvdGF0ZSgzMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYyIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWMiIHRyYW5zZm9ybT0icm90YXRlKDE1MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjEwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1jIiB0cmFuc2Zvcm09InJvdGF0ZSgyNzAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWMiIHRyYW5zZm9ybT0icm90YXRlKDMzMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZCIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZCIgdHJhbnNmb3JtPSJyb3RhdGUoNjAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWQiIHRyYW5zZm9ybT0icm90YXRlKDEyMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZCIgdHJhbnNmb3JtPSJyb3RhdGUoMTgwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1kIiB0cmFuc2Zvcm09InJvdGF0ZSgyNDAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWQiIHRyYW5zZm9ybT0icm90YXRlKDMwMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZSIgdHJhbnNmb3JtPSJyb3RhdGUoMzAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWUiIHRyYW5zZm9ybT0icm90YXRlKDkwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1lIiB0cmFuc2Zvcm09InJvdGF0ZSgxNTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWUiIHRyYW5zZm9ybT0icm90YXRlKDIxMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZSIgdHJhbnNmb3JtPSJyb3RhdGUoMjcwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1lIiB0cmFuc2Zvcm09InJvdGF0ZSgzMzAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWYiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWYiIHRyYW5zZm9ybT0icm90YXRlKDYwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1mIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWYiIHRyYW5zZm9ybT0icm90YXRlKDE4MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZiIgdHJhbnNmb3JtPSJyb3RhdGUoMjQwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1mIiB0cmFuc2Zvcm09InJvdGF0ZSgzMDAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWciIHRyYW5zZm9ybT0icm90YXRlKDMwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1nIiB0cmFuc2Zvcm09InJvdGF0ZSg5MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZyIgdHJhbnNmb3JtPSJyb3RhdGUoMTUwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1nIiB0cmFuc2Zvcm09InJvdGF0ZSgyMTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWciIHRyYW5zZm9ybT0icm90YXRlKDI3MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZyIgdHJhbnNmb3JtPSJyb3RhdGUoMzMwIDE2MCAxNjApIi8+PC9zdmc+\\",
+            \\"_svgContent\\": \\"<svg width=\\\\\\"320\\\\\\" height=\\\\\\"320\\\\\\" viewBox=\\\\\\"0 0 320 320\\\\\\" fill=\\\\\\"none\\\\\\" stroke=\\\\\\"#000\\\\\\" stroke-linecap=\\\\\\"round\\\\\\" xmlns=\\\\\\"http://www.w3.org/2000/svg\\\\\\" xmlns:xlink=\\\\\\"http://www.w3.org/1999/xlink\\\\\\"><defs><path id=\\\\\\"124xezj-b\\\\\\"><animate id=\\\\\\"124xezj-a\\\\\\" attributeName=\\\\\\"d\\\\\\" values=\\\\\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\"/><animate attributeName=\\\\\\"stroke-width\\\\\\" values=\\\\\\"0;4;4;4;0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin\\\\\\"/></path><path id=\\\\\\"124xezj-c\\\\\\"><animate attributeName=\\\\\\"d\\\\\\" values=\\\\\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+1s\\\\\\"/><animate attributeName=\\\\\\"stroke-width\\\\\\" values=\\\\\\"0;4;4;4;0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+1s\\\\\\"/></path><path id=\\\\\\"124xezj-d\\\\\\"><animate attributeName=\\\\\\"d\\\\\\" values=\\\\\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+2s\\\\\\"/><animate attributeName=\\\\\\"stroke-width\\\\\\" values=\\\\\\"0;4;4;4;0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+2s\\\\\\"/></path><path id=\\\\\\"124xezj-e\\\\\\"><animate attributeName=\\\\\\"d\\\\\\" values=\\\\\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+3s\\\\\\"/><animate attributeName=\\\\\\"stroke-width\\\\\\" values=\\\\\\"0;4;4;4;0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+3s\\\\\\"/></path><path id=\\\\\\"124xezj-f\\\\\\"><animate attributeName=\\\\\\"d\\\\\\" values=\\\\\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+4s\\\\\\"/><animate attributeName=\\\\\\"stroke-width\\\\\\" values=\\\\\\"0;4;4;4;0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+4s\\\\\\"/></path><path id=\\\\\\"124xezj-g\\\\\\"><animate attributeName=\\\\\\"d\\\\\\" values=\\\\\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+5s\\\\\\"/><animate attributeName=\\\\\\"stroke-width\\\\\\" values=\\\\\\"0;4;4;4;0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+5s\\\\\\"/></path></defs><use xlink:href=\\\\\\"#124xezj-b\\\\\\"/><use xlink:href=\\\\\\"#124xezj-b\\\\\\" transform=\\\\\\"rotate(60 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-b\\\\\\" transform=\\\\\\"rotate(120 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-b\\\\\\" transform=\\\\\\"rotate(180 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-b\\\\\\" transform=\\\\\\"rotate(240 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-b\\\\\\" transform=\\\\\\"rotate(300 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-c\\\\\\" transform=\\\\\\"rotate(30 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-c\\\\\\" transform=\\\\\\"rotate(90 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-c\\\\\\" transform=\\\\\\"rotate(150 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-c\\\\\\" transform=\\\\\\"rotate(210 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-c\\\\\\" transform=\\\\\\"rotate(270 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-c\\\\\\" transform=\\\\\\"rotate(330 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-d\\\\\\"/><use xlink:href=\\\\\\"#124xezj-d\\\\\\" transform=\\\\\\"rotate(60 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-d\\\\\\" transform=\\\\\\"rotate(120 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-d\\\\\\" transform=\\\\\\"rotate(180 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-d\\\\\\" transform=\\\\\\"rotate(240 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-d\\\\\\" transform=\\\\\\"rotate(300 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-e\\\\\\" transform=\\\\\\"rotate(30 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-e\\\\\\" transform=\\\\\\"rotate(90 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-e\\\\\\" transform=\\\\\\"rotate(150 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-e\\\\\\" transform=\\\\\\"rotate(210 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-e\\\\\\" transform=\\\\\\"rotate(270 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-e\\\\\\" transform=\\\\\\"rotate(330 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-f\\\\\\"/><use xlink:href=\\\\\\"#124xezj-f\\\\\\" transform=\\\\\\"rotate(60 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-f\\\\\\" transform=\\\\\\"rotate(120 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-f\\\\\\" transform=\\\\\\"rotate(180 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-f\\\\\\" transform=\\\\\\"rotate(240 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-f\\\\\\" transform=\\\\\\"rotate(300 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-g\\\\\\" transform=\\\\\\"rotate(30 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-g\\\\\\" transform=\\\\\\"rotate(90 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-g\\\\\\" transform=\\\\\\"rotate(150 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-g\\\\\\" transform=\\\\\\"rotate(210 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-g\\\\\\" transform=\\\\\\"rotate(270 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-g\\\\\\" transform=\\\\\\"rotate(330 160 160)\\\\\\"/></svg>\\",
+            \\"svg\\": true,
+            \\"x\\": 0,
+            \\"y\\": 0,
+            \\"width\\": 320,
+            \\"height\\": 320
+        },
+        \\"__tests__/fixtures/img/svg/spiral.svg\\": {
+            \\"inline\\": \\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48ZGVmcy8+PGc+PHBhdGggZD0iTTI5LjYzNiAzMC4zNjRjLjk2NyAxLjIxMi0xLjE1NyAxLjktMi4wMTUgMS42MDYtMi4zMjQtLjc5OS0yLjM2Mi0zLjg5NS0xLjE5Ny01LjYzNyAyLjA4NS0zLjExNCA2LjU3LTMgOS4yNTgtLjc4OCAzLjk0NCAzLjI0OCAzLjY2MiA5LjI4My4zNzkgMTIuODgtNC4zNzcgNC43OTItMTIuMDEgNC4zMzQtMTYuNS0uMDMxQzEzLjkxIDMyLjkgMTQuNTQ4IDIzLjY1IDIwIDE4LjI3M2M2LjYwMy02LjUxNCAxNy40OC01LjY5MyAyMy43NDIuODQ4IDcuMzggNy43MSA2LjM3NiAyMC4yMi0xLjI1NyAyNy4zNjQtOC44MTMgOC4yNDgtMjIuOTYgNy4wNi0zMC45ODUtMS42NjctOS4xMTgtOS45MTYtNy43NDUtMjUuNzAyIDIuMDc2LTM0LjYwNkMyNC41OTMuMjIzIDQyLjAyIDEuNzgyIDUxLjgwMyAxMi42OTdjMTAuODYgMTIuMTE4IDkuMTE3IDMxLjE4OC0yLjg5NCA0MS44NDgiIGZpbGw9IiNkMzhkNWYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjMDAwIi8+PC9nPjwvc3ZnPg==\\",
+            \\"_svgContent\\": \\"<svg xmlns=\\\\\\"http://www.w3.org/2000/svg\\\\\\" width=\\\\\\"64\\\\\\" height=\\\\\\"64\\\\\\" viewBox=\\\\\\"0 0 64 64\\\\\\"><defs/><g><path d=\\\\\\"M29.636 30.364c.967 1.212-1.157 1.9-2.015 1.606-2.324-.799-2.362-3.895-1.197-5.637 2.085-3.114 6.57-3 9.258-.788 3.944 3.248 3.662 9.283.379 12.88-4.377 4.792-12.01 4.334-16.5-.031C13.91 32.9 14.548 23.65 20 18.273c6.603-6.514 17.48-5.693 23.742.848 7.38 7.71 6.376 20.22-1.257 27.364-8.813 8.248-22.96 7.06-30.985-1.667-9.118-9.916-7.745-25.702 2.076-34.606C24.593.223 42.02 1.782 51.803 12.697c10.86 12.118 9.117 31.188-2.894 41.848\\\\\\" fill=\\\\\\"#d38d5f\\\\\\" fill-rule=\\\\\\"evenodd\\\\\\" stroke=\\\\\\"#000\\\\\\"/></g></svg>\\",
+            \\"svg\\": true,
+            \\"x\\": 0,
+            \\"y\\": -320,
+            \\"width\\": 64,
+            \\"height\\": 64
+        },
+        \\"__tests__/fixtures/img/svg/star.svg\\": {
+            \\"inline\\": \\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48ZGVmcy8+PGc+PHBhdGggZD0iTTQ5LjA5IDU4LjM2NEwzMSA0OC4xNzJsLTE4LjY1IDkuMTI1IDQuMTAyLTIwLjM1NEwyLjAxMSAyMi4wMjVsMjAuNjI1LTIuMzg5IDkuNzI2LTE4LjM0NCA4LjY0NSAxOC44NzggMjAuNDUyIDMuNTgtMTUuMjgzIDE0LjA1NnoiIGZpbGw9IiNmZmIzODAiLz48L2c+PC9zdmc+\\",
+            \\"_svgContent\\": \\"<svg xmlns=\\\\\\"http://www.w3.org/2000/svg\\\\\\" width=\\\\\\"64\\\\\\" height=\\\\\\"64\\\\\\" viewBox=\\\\\\"0 0 64 64\\\\\\"><defs/><g><path d=\\\\\\"M49.09 58.364L31 48.172l-18.65 9.125 4.102-20.354L2.011 22.025l20.625-2.389 9.726-18.344 8.645 18.878 20.452 3.58-15.283 14.056z\\\\\\" fill=\\\\\\"#ffb380\\\\\\"/></g></svg>\\",
+            \\"svg\\": true,
+            \\"x\\": 0,
+            \\"y\\": -384,
+            \\"width\\": 64,
+            \\"height\\": 64
+        }
+    },
+    \\"width\\": 320,
+    \\"height\\": 448
+}",
+  "desPath": "__tests__/build/other/sprite.svg.json",
+}
+`;

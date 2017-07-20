@@ -1,0 +1,24 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: red;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon-spiral {
+  background: #ffffff url("../img/svg/spiral.svg") no-repeat right top;
+}
+
+.icon-star {
+  background: #ffffff url("../img/svg/star.svg") no-repeat right top;
+  background-position: -100px -200px;
+  width: 100px;
+  height: 100px;
+}
+
+a {
+  color: #00B7FF;
+}

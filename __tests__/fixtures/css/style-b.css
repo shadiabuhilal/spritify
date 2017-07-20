@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  background: #00B7FF;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon-home {
+  background-image: url("../img/icons/icon-home.png");
+  background-position: -100px -200px;
+  background-size: 500px 600px;
+  width: 100px;
+  height: 100px;
+  color: red;
+}
+
+.icon-error {
+  background-image: url("../img/icons/icon-error.png");
+  width: 50px;
+  height: 50px;
+}
+
+.car {
+  background-image: url("../img/car.png");
+  width: 175px;
+  height: 70px;
+}
+
+.icon-info {
+  background: #ffffff url("../img/icons/icon-info.jpg") no-repeat right top;
+  background-color: yellow;
+}
+
+.error {
+    color: #ff0000;
+}
