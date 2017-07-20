@@ -7,8 +7,7 @@
 <img align="right" src="https://gist.githubusercontent.com/shadiabuhilal/0b78455279255437c25ff497592b935e/raw/a532a1724f5d7f21cee5067fff54bffb43338fbe/spritify-logo.png" alt="spritify" style="height: 50px;"/>
 
 SPRITIFY is a node.js package to create [image sprite(s)][image-sprite] from images and update css file(s) with new image sprite(s) details.
-<br />
-<br />
+<br /><br />
 <img src="https://gist.githubusercontent.com/shadiabuhilal/0b78455279255437c25ff497592b935e/raw/0aaede65d739649a3f96a2a198b437eabd2f2d26/icon-home.png" style="height: 35px;" /> <img src="https://gist.github.com/shadiabuhilal/0b78455279255437c25ff497592b935e/raw/9b3b0e9ded7f18e5fa24cc4d66c6348907e1e575/plus.png" style="height: 35px;"> <img src="https://gist.github.com/shadiabuhilal/0b78455279255437c25ff497592b935e/raw/0aaede65d739649a3f96a2a198b437eabd2f2d26/icon-info.jpg" style="height: 35px;" /> <img src="https://gist.github.com/shadiabuhilal/0b78455279255437c25ff497592b935e/raw/9b3b0e9ded7f18e5fa24cc4d66c6348907e1e575/plus.png" style="height: 35px;"> <img src="https://gist.github.com/shadiabuhilal/0b78455279255437c25ff497592b935e/raw/352bb8ce1737b212e520470cb9d51641d84342df/icon-settings.png" style="height: 35px;" /> 
 <img src="https://gist.github.com/shadiabuhilal/0b78455279255437c25ff497592b935e/raw/9b3b0e9ded7f18e5fa24cc4d66c6348907e1e575/equal.png" style="height: 35px;"> <img src="https://gist.github.com/shadiabuhilal/0b78455279255437c25ff497592b935e/raw/352bb8ce1737b212e520470cb9d51641d84342df/sprite-image.png" style="height: 35px;" />
 <br />

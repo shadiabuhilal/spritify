@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 
+/**
+ * Copyright 2017, Yahoo Holdings.
+ * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
+ */
+
 'use strict';
 
 const Coa = require('coa');
