@@ -81,6 +81,17 @@ Coa.Cmd()
         })
         .end()
     .opt()
+        .name('padding').title('Padding pixels around the sprite image. e.g: ' + white('10') + '.')
+        .short('p').long('padding')
+        .val(function (val) {
+            val = val || parseInt(val, 10);
+            if (val >= 0) {
+                return val;
+            }
+            return this.reject(errStr('Option \'' + white('--padding') + '\' must have a positive integer value.'));
+        })
+        .end()
+    .opt()
         .name('svg').title('Flag to build svg sprite image')
         .short('svg').long('svg')
         .flag()
@@ -88,19 +99,23 @@ Coa.Cmd()
 .act(function (opts, args) {
 
     let self = this;
+
+    if (!Object.keys(opts).length) {
+        return self.usage();
+    }
+
+    opts.padding = opts.padding && parseInt(opts.padding, 10);
+
     let config = {
         debug: true,
         sprites: [{
             svg: opts.svg,
             layout: opts.layout,
+            padding: opts.padding,
             src: '',
             dest: ''
         }]
     };
-
-    if (!Object.keys(opts).length) {
-        return self.usage();
-    }
 
     if (opts.config) {
         config = opts.config;

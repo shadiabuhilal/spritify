@@ -59,6 +59,7 @@ Options:
   -s SRC, --src=SRC : Source directory of the images for the sprite image (It should be relative path).
   -d DEST, --dest=DEST : Destination file path of the sprite image (It should be relative path).
   -l LAYOUT, --layout=LAYOUT : layout of the sprite image e.g: 'top-down', 'left-right'.
+  -p PADDING, --padding=PADDING : Padding pixels around the sprite image. e.g: 10.
   -svg, --svg : Flag to build svg sprite image
 ```
 
@@ -68,7 +69,7 @@ Options:
 ```
 OR create only image sprite
 ```bash
-./node_modules/.bin/spritify -s SOURCE/DIRECTORY/PATH/ -d DESTINATION/FILE/PATH.png -l left-right
+./node_modules/.bin/spritify -s SOURCE/DIRECTORY/PATH/ -d DESTINATION/FILE/PATH.png -p 15 -l left-right
 ```
 OR create only svg image sprite
 ```bash

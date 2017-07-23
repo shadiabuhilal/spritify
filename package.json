@@ -1,6 +1,6 @@
 {
   "name": "spritify",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create image sprite(s) from images and update css file(s) with new image sprite(s) details",
   "main": "index.js",
   "bin": {
@@ -45,7 +45,10 @@
   "author": "Shadi Abu Hilal <shadiabuhilal@gmail.com> (http://github.com/shadiabuhilal)",
   "license": "BSD-3-Clause",
   "jest": {
-    "coveragePathIgnorePatterns": ["/node_modules/", "bin/"],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "bin/"
+    ],
     "testRegex": "__tests__/.*\\.spec\\.js$"
   },
   "devDependencies": {
