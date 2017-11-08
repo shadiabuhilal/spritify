@@ -33,9 +33,8 @@ SPRITIFY is a node.js package to create [image sprite(s)][image-sprite] from ima
 <img src="https://gist.github.com/shadiabuhilal/0b78455279255437c25ff497592b935e/raw/aade12e88b67a1b8a0538fab0141be5c0b5ee7c8/spritify-console-log.png?n=1" alt="spritify console log" />
 
 
-<br />
-
-> Clone or download [Spritify example][spritify-example-url] repo and run it.
+## Demo
+Clone or download [Spritify example][spritify-example-url] repo and run it.
 
 ## Install
 ```bash
@@ -135,9 +134,9 @@ Spritify.build(params, callback);
 const Spritify = require('spritify');
 
 const params = {
+    debug: true,
+    showIgnoredRules: true,
     css: [
-        debug: true,
-        showIgnoredRules: true,
         {
             optimize: false,
             inline: true,
