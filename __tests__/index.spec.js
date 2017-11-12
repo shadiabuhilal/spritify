@@ -96,7 +96,7 @@ describe('Spritify', () => {
                 done();
             });
 
-        });
+        }, TestUtil.longTimeout);
 
     });
 

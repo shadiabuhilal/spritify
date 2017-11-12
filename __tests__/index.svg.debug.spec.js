@@ -83,7 +83,7 @@ describe('Spritify SVG DEBUG', () => {
                 done();
             });
 
-        });
+        }, TestUtil.longTimeout);
 
     });
 

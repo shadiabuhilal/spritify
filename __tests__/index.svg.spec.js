@@ -83,7 +83,7 @@ describe('Spritify SVG', () => {
                 done();
             });
 
-        });
+        }, TestUtil.longTimeout);
 
         it('should build SVG sprites and update css layout left-right and padding 25 successfully', (done) => {
 
@@ -144,7 +144,7 @@ describe('Spritify SVG', () => {
                 done();
             });
 
-        });
+        }, TestUtil.longTimeout);
 
     });
 

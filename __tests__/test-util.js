@@ -125,5 +125,6 @@ const reset = () => {
  };
 
 module.exports = {
+    longTimeout: 10000,
     initTest: initTest
 };

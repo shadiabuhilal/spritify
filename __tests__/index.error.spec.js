@@ -57,7 +57,7 @@ describe('Spritify Errors', () => {
                 done();
             });
 
-        });
+        }, TestUtil.longTimeout);
 
         it('should return error, case of corrupted image', (done) => {
 
@@ -91,7 +91,7 @@ describe('Spritify Errors', () => {
                 done();
             });
 
-        });
+        }, TestUtil.longTimeout);
 
         it('should return error, when css src file does NOT exists', (done) => {
 
@@ -129,7 +129,7 @@ describe('Spritify Errors', () => {
                 done();
             });
 
-        });
+        }, TestUtil.longTimeout);
 
         it('should return error, when failed to exec mkdirp', (done) => {
 
@@ -163,7 +163,7 @@ describe('Spritify Errors', () => {
                 done();
             });
 
-        });
+        }, TestUtil.longTimeout);
 
         it('should return error, Can\'t write file', (done) => {
 
@@ -198,7 +198,7 @@ describe('Spritify Errors', () => {
                 done();
             });
 
-        });
+        }, TestUtil.longTimeout);
 
     });
 
