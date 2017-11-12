@@ -93,7 +93,7 @@ describe('Spritify DEBUG', () => {
                 done();
             });
 
-        });
+        }, TestUtil.longTimeout);
 
     });
 
