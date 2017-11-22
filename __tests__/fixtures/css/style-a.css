@@ -38,7 +38,7 @@ a {
 
 .icon-home2 {
   /*spritify:ignore*/
-  background-image: url("../img/icons/icon-home.png");
+  background-image: url("../img/common/1x/icon-home.png");
   background-position: -100px -200px;
   background-size: 500px 600px;
   width: 100px;
@@ -77,7 +77,7 @@ a {
   }
 
   .icon-home {
-    background: #ffffff url("../img/icons@2x/icon-home@2x.png") no-repeat right top;
+    background: #ffffff url("../img/common/2x/icon-home@2x.png") no-repeat right top;
     background-position: -100px -200px;
     width: 100px;
     height: 100px;

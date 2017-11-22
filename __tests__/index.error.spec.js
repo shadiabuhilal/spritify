@@ -37,13 +37,13 @@ describe('Spritify Errors', () => {
                     {
                         padding: 10,
                         layout: 'top-down',
-                        src: '__tests__/fixtures/img/icons/',
+                        src: '__tests__/fixtures/img/icons',
                         dest: '__tests__/build/other/sprite.png',
                         relative: '../images'
                     },
                     {
                         retina: 2,
-                        src: 'PATH-DOES-NOT-EXISTS/icons/',
+                        src: 'PATH-DOES-NOT-EXISTS/icons',
                         dest: '__tests__/build/other/sprite@2x.png',
                         relative: '../images'
                     }
@@ -53,7 +53,7 @@ describe('Spritify Errors', () => {
             Spritify.build(params, (err) => {
 
                 expect(err).toEqual(expect.any(Object));
-                expect(err.message).toMatch(/ENOENT: no such file or directory, scandir .*PATH-DOES-NOT-EXISTS\/icons\//);
+                expect(err.message).toMatch(/ENOENT: no such file or directory, scandir .*PATH-DOES-NOT-EXISTS\/icons/);
                 done();
             });
 
@@ -77,7 +77,7 @@ describe('Spritify Errors', () => {
                     {
                         padding: 10,
                         layout: 'top-down',
-                        src: '__tests__/fixtures/img/icons/',
+                        src: '__tests__/fixtures/img/icons',
                         dest: '__tests__/build/other/sprite.png',
                         relative: '../images'
                     }
@@ -115,7 +115,7 @@ describe('Spritify Errors', () => {
                     {
                         padding: 10,
                         layout: 'top-down',
-                        src: '__tests__/fixtures/img/icons/',
+                        src: '__tests__/fixtures/img/icons',
                         dest: '__tests__/build/other/sprite.png',
                         relative: '../images'
                     }
@@ -149,7 +149,7 @@ describe('Spritify Errors', () => {
                     {
                         padding: 10,
                         layout: 'top-down',
-                        src: '__tests__/fixtures/img/icons/',
+                        src: '__tests__/fixtures/img/icons',
                         dest: '__tests__/build/other/sprite.png',
                         relative: '../images'
                     }
@@ -184,7 +184,7 @@ describe('Spritify Errors', () => {
                     {
                         padding: 10,
                         layout: 'top-down',
-                        src: '__tests__/fixtures/img/icons/',
+                        src: '__tests__/fixtures/img/icons',
                         dest: '__tests__/build/other/sprite.png',
                         relative: '../images'
                     }

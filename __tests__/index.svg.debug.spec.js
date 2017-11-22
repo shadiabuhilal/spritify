@@ -53,7 +53,7 @@ describe('Spritify SVG DEBUG', () => {
                     {
                         svg: true,
                         layout: 'top-down',
-                        src: '__tests__/fixtures/img/svg/',
+                        src: '__tests__/fixtures/img/svg',
                         dest: '__tests__/build/other/sprite.svg',
                         relative: '../images'
                     }
