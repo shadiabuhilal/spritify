@@ -97,21 +97,30 @@ OR create only svg image sprite
     ],
     "sprites": [
         {
+            "layout": "top-down",
+            "src": [
+                "public/images/common",
+                "public/images/other-icons"
+            ],
+            "dest": "build/img/sprite-site.png",
+            "relative": "../img"
+        },
+        {
             "padding": 10,
             "layout": "top-down",
-            "src": "__tests__/fixtures/img/icons/",
+            "src": "__tests__/fixtures/img/icons",
             "dest": "build/images/sprite.png",
             "relative": "../images"
         },
         {
             "retina": 2,
-            "src": "__tests__/fixtures/img/icons@2x/",
+            "src": "__tests__/fixtures/img/icons@2x",
             "dest": "build/images/sprite@2x.png",
             "relative": "../images"
         },
         {
             "svg": true,
-            "src": "__tests__/fixtures/img/svg/",
+            "src": "__tests__/fixtures/img/svg",
             "dest": "build/images/sprite-svg.svg",
             "relative": "../images"
         }
@@ -151,7 +160,16 @@ const params = {
     sprites: [
         {
             layout: 'top-down',
-            src: 'public/images/icons/',
+            src: [
+                'public/images/common',
+                'public/images/other-icons'
+            ],
+            dest: 'build/img/sprite-site.png',
+            relative: '../img'
+        },
+        {
+            layout: 'top-down',
+            src: 'public/images/icons',
             dest: 'build/img/sprite.png',
             relative: '../img'
         },
@@ -159,13 +177,13 @@ const params = {
             padding: 15,
             retina: 2,
             layout: 'left-right',
-            src: 'public/img/icons@2x/',
+            src: 'public/img/icons@2x',
             dest: 'build/img/sprite@2x.png',
             relative: '../img'
         },
         {
             svg: true,
-            src: 'public/img/svg/',
+            src: 'public/img/svg',
             dest: 'build/img/svg-sprite.svg',
             relative: '../img'
         }
@@ -224,16 +242,16 @@ __<a name="css-obj"></a>css object:__
 
 __<a name="sprites-obj"></a>sprites object:__
 
-| NAME        | TYPE          | DEFAULT       | REQUIRED | DESCRIPTION                                                                                 |
-|-------------|---------------|---------------|----------|---------------------------------------------------------------------------------------------|
-| `src`       | `String`      |               |    YES   | Source directory path of the images.                                                        |
-| `dest`      | `String`      |               |    YES   | Destination path of the sprite file.                                                        |
-| `relative`  | `String`      |               |    YES   | Relative destination directory path of the sprite in the css file.                          |
-| `svg`       | `Boolean`     | `false`       |    NO    | Option to create svg sprite for svg images.                                                 |
-| `padding`   | `Number`      | `0`           |    NO    | Option to add more padding around the images in the css.                                    |
-| `retina`    | `Number`      | `1`           |    NO    | Option to support retina images by setting value. *e.g: to use 2X retina, set `retina: 2`*. |
-| `layout` | `String`      | `binary-tree` |    NO    | Option to pack images with. please [layouts table](#layouts).                                        |
-| `engine`    | `String`      | `pixelsmith`  |    NO    | Option to use different engine for [spritesmith][spritesmith-url].   |
+| NAME        | TYPE                                  | DEFAULT       | REQUIRED | DESCRIPTION                                                                                 |
+|-------------|---------------------------------------|---------------|----------|---------------------------------------------------------------------------------------------|
+| `src`       | `String` Or `Array` of `Strings`      |               |    YES   | Source directory path(s) of the images.                                                     |
+| `dest`      | `String`                              |               |    YES   | Destination path of the sprite file.                                                        |
+| `relative`  | `String`                              |               |    YES   | Relative destination directory path of the sprite in the css file.                          |
+| `svg`       | `Boolean`                             | `false`       |    NO    | Option to create svg sprite for svg images.                                                 |
+| `padding`   | `Number`                              | `0`           |    NO    | Option to add more padding around the images in the css.                                    |
+| `retina`    | `Number`                              | `1`           |    NO    | Option to support retina images by setting value. *e.g: to use 2X retina, set `retina: 2`*. |
+| `layout`    | `String`                              | `binary-tree` |    NO    | Option to pack images with. please [layouts table](#layouts).                               |
+| `engine`    | `String`                              | `pixelsmith`  |    NO    | Option to use different engine for [spritesmith][spritesmith-url].                          |
 
 
 __<a name="layouts"></a>[Layouts][layouts-url]__

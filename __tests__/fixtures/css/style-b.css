@@ -8,7 +8,7 @@ body {
 }
 
 .icon-home {
-  background-image: url("../img/icons/icon-home.png");
+  background-image: url("../img/common/1x/icon-home.png");
   background-position: -100px -200px;
   background-size: 500px 600px;
   width: 100px;

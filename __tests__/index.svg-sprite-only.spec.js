@@ -35,7 +35,7 @@ describe('Spritify SVG', () => {
                 sprites: [
                     {
                         svg: true,
-                        src: '__tests__/fixtures/img/svg/',
+                        src: '__tests__/fixtures/img/svg',
                         dest: '__tests__/build/other/sprite.svg',
                         relative: '../images'
                     }
@@ -71,7 +71,7 @@ describe('Spritify SVG', () => {
                         svg: true,
                         layout: 'left-right',
                         padding: 25,
-                        src: '__tests__/fixtures/img/svg/',
+                        src: '__tests__/fixtures/img/svg',
                         dest: '__tests__/build/other/sprite.svg',
                         relative: '../images'
                     }

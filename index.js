@@ -4,6 +4,8 @@
  * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
  */
 
+const Util = require('./lib/util.js');
+
 //Catch uncaught exceptions
 /* istanbul ignore next */
 process.on('uncaughtException', (err) => {
@@ -17,7 +19,7 @@ const Files = require('./lib/files.js');
 const ParallelSprites = require('./lib/parallel-sprites.js');
 const ParallelCss = require('./lib/parallel-css.js');
 const UnusedImages = require('./lib/unused-images.js');
-const Util = require('./lib/util.js');
+
 
 /**
  * This function show error message in the console and forward the error callback

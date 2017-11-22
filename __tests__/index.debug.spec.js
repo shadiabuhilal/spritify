@@ -54,13 +54,13 @@ describe('Spritify DEBUG', () => {
                     {
                         padding: 10,
                         layout: 'top-down',
-                        src: '__tests__/fixtures/img/icons/',
+                        src: '__tests__/fixtures/img/icons',
                         dest: '__tests__/build/other/sprite.png',
                         relative: '../images'
                     },
                     {
                         retina: 2,
-                        src: '__tests__/fixtures/img/icons@2x/',
+                        src: '__tests__/fixtures/img/icons@2x',
                         dest: '__tests__/build/other/sprite@2x.png',
                         relative: '../images'
                     }
