@@ -2,7 +2,7 @@
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
-[![Build][travis-image]][travis-url]
+![Build Status](https://github.com/shadiabuhilal/spritify/actions/workflows/push-workflows.yml/badge.svg)
 
 <img align="right" src="https://gist.githubusercontent.com/shadiabuhilal/0b78455279255437c25ff497592b935e/raw/a532a1724f5d7f21cee5067fff54bffb43338fbe/spritify-logo.png" alt="spritify" style="height: 50px;"/>
 
@@ -273,8 +273,6 @@ Copyrights licensed under the New BSD License. See the accompanying LICENSE file
 [npm-url]: https://npmjs.org/package/spritify
 [downloads-image]: https://img.shields.io/npm/dm/spritify.svg
 [downloads-url]: https://npmjs.org/package/spritify
-[travis-image]: https://travis-ci.org/shadiabuhilal/spritify.svg?branch=master
-[travis-url]: https://travis-ci.org/shadiabuhilal/spritify
 
 [image-sprite]: https://www.w3schools.com/css/css_image_sprites.asp
 [spritify-example-url]: https://github.com/shadiabuhilal/spritify-example

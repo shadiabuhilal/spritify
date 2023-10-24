@@ -4,18 +4,19 @@
   "description": "Create image sprite(s) from images and update css file(s) with new image sprite(s) details",
   "main": "index.js",
   "bin": {
-    "spritify": "./bin/spritify.js"
+    "spritify": "bin/spritify.js"
   },
   "scripts": {
     "docs": "jsdoc -c ./jsdoc-config.json",
     "lint": "eslint --fix ./*.js ./lib/*.js",
     "pretest": "eslint --fix ./*.js ./lib/*.js",
     "test": "jest --coverage --verbose",
-    "update-snapshots": "jest --coverage --verbose --u"
+    "update-snapshots": "jest --coverage --verbose --u",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shadiabuhilal/spritify/"
+    "url": "git+https://github.com/shadiabuhilal/spritify.git"
   },
   "keywords": [
     "spritify",
@@ -48,10 +49,15 @@
     "testRegex": "__tests__/.*\\.spec\\.js$"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/release-notes-generator": "^12.0.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^4.11.0",
     "eslint-plugin-require-jsdoc": "^1.0.4",
     "jest": "^21.2.1",
-    "jsdoc": "^3.5.5"
+    "jsdoc": "^3.5.5",
+    "semantic-release": "^22.0.5"
   },
   "dependencies": {
     "async": "^2.6.0",
@@ -64,5 +70,10 @@
     "spritesmith": "^3.2.1",
     "string-hash": "^1.1.3",
     "svgo": "^1.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
