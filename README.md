@@ -12,7 +12,6 @@ SPRITIFY is a node.js package to create [image sprite(s)][image-sprite] from ima
 <img src="https://gist.github.com/shadiabuhilal/0b78455279255437c25ff497592b935e/raw/9b3b0e9ded7f18e5fa24cc4d66c6348907e1e575/equal.png" style="height: 35px;"> <img src="https://gist.github.com/shadiabuhilal/0b78455279255437c25ff497592b935e/raw/352bb8ce1737b212e520470cb9d51641d84342df/sprite-image.png" style="height: 35px;" />
 <br />
 
-
 ## Features:
 - Create image sprite(s), and search for `background`, `background-image` css properties in the css file, and update the value with the new sprite image url and dimension by adding/overwrite css properties like 
 `background-size`, `background-position`, `width` ...etc.
