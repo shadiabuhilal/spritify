@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`__tests__/build/css/style-a.css 1`] = `
-Object {
+exports[`Spritify .build() should build sprites and update css successfully: __tests__/build/css/style-a.css 1`] = `
+{
   "content": "body {
   padding: 50px;
-  font: 14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: #00B7FF;
 }
 
@@ -17,13 +17,13 @@ a {
 }
 
 .log {
-  background-image: url(\\"http://localhost:3000/images/logo.png\\");
+  background-image: url("http://localhost:3000/images/logo.png");
 }
 
 /* spritify: ignore */
 
 .bg-1 {
-  background: url(\\"../images/bg/bg-1.png\\");
+  background: url("../images/bg/bg-1.png");
   background-position: -100px -200px;
   background-size: 500px 600px;
   width: 100px;
@@ -35,13 +35,13 @@ a {
   /*
   spritify : ignore
   */
-  background-image: url(\\"../images/bg/bg-2.png\\");
+  background-image: url("../images/bg/bg-2.png");
   background-color: blue;
 }
 
 .icon-home2 {
   /*spritify:ignore*/
-  background-image: url(\\"../img/common/1x/icon-home.png\\");
+  background-image: url("../img/common/1x/icon-home.png");
   background-position: -100px -200px;
   background-size: 500px 600px;
   width: 100px;
@@ -50,7 +50,7 @@ a {
 }
 
 .icon-home {
-  background-image: url(\\"../img/icons/icon-home.png\\");
+  background-image: url("../img/icons/icon-home.png");
   background-position: -100px -200px;
   background-size: 500px 600px;
   width: 100px;
@@ -84,7 +84,7 @@ a {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), not all, not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .log {
-    background-image: url(\\"https://localhost:3000/images/logo@2x.png\\");
+    background-image: url("https://localhost:3000/images/logo@2x.png");
   }
 
   .icon-home,
@@ -123,8 +123,8 @@ a {
 }
 `;
 
-exports[`__tests__/build/css/style-b.css 1`] = `
-Object {
+exports[`Spritify .build() should build sprites and update css successfully: __tests__/build/css/style-b.css 1`] = `
+{
   "content": "body {
   padding: 50px;
   background: #00B7FF;
@@ -145,13 +145,13 @@ Object {
 }
 
 .icon-error {
-  background-image: url(\\"../img/icons/icon-error.png\\");
+  background-image: url("../img/icons/icon-error.png");
   width: 50px;
   height: 50px;
 }
 
 .car {
-  background-image: url(\\"../img/car.png\\");
+  background-image: url("../img/car.png");
   width: 175px;
   height: 70px;
 }
@@ -173,11 +173,11 @@ Object {
 }
 `;
 
-exports[`__tests__/build/css/style-c.min.css 1`] = `
-Object {
+exports[`Spritify .build() should build sprites and update css successfully: __tests__/build/css/style-c.min.css 1`] = `
+{
   "content": "body {
   padding: 50px;
-  font: 14px \\"Lucida Grande\\",Helvetica,Arial,sans-serif;
+  font: 14px "Lucida Grande",Helvetica,Arial,sans-serif;
   background: #00B7FF;
 }
 
@@ -254,11 +254,11 @@ a {
 }
 `;
 
-exports[`__tests__/build/css/style-inline.css 1`] = `
-Object {
+exports[`Spritify .build() should build sprites and update css successfully: __tests__/build/css/style-inline.css 1`] = `
+{
   "content": "body {
   padding: 50px;
-  font: 14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: #00B7FF;
 }
 
@@ -271,24 +271,24 @@ a {
 }
 
 .log {
-  background-image: url(\\"http://localhost:3000/images/logo.png\\");
+  background-image: url("http://localhost:3000/images/logo.png");
 }
 
 .bg-1 {
   /* spritify: ignore */
-  background: url(\\"../images/bg/bg-1.png\\");
+  background: url("../images/bg/bg-1.png");
 }
 
 .bg-2 {
   /*
   spritify : ignore
   */
-  background-image: url(\\"../images/bg/bg-1.png\\");
+  background-image: url("../images/bg/bg-1.png");
   background-color: blue;
 }
 
 .bg-3 {
-  background-image: url(\\"../images//bg/bg-1.png\\");
+  background-image: url("../images//bg/bg-1.png");
   background-position: -100px -200px;
   background-size: 500px 600px;
   width: 100px;
@@ -331,7 +331,7 @@ a {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), not all, not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .log {
-    background-image: url(\\"https://localhost:3000/images/logo@2x.png\\");
+    background-image: url("https://localhost:3000/images/logo@2x.png");
   }
 
   .icon-home {
