@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/shadiabuhilal/spritify/compare/v1.2.0...v1.2.1) (2024-04-08)
+
+
+### Bug Fixes
+
+* fix Babel vulnerable to arbitrary code execution ([86cf583](https://github.com/shadiabuhilal/spritify/commit/86cf58380c849f7fe17fea8ecaba230b2d7bf911))
+
 # [1.2.0](https://github.com/shadiabuhilal/spritify/compare/v1.1.0...v1.2.0) (2023-10-24)
 
 
