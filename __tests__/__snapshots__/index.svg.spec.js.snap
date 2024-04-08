@@ -1,55 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`__tests__/build/css/style-svg-a.css 1`] = `
-Object {
+exports[`Spritify SVG .build() // SVG should build SVG sprites and update css layout left-right and padding 25 successfully: __tests__/build/css/style-svg-a.css 1`] = `
+{
   "content": "body {
   padding: 50px;
-  font: 14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif;
-  background: #818100;
-}
-
-a {
-  color: #00B7FF;
-}
-
-.icon {
-  display: inline-block;
-}
-
-.icon-spiral,
-.icon-star,
-.icon-animation {
-  background-image: url('../images/sprite.svg');
-  background-size: 320px 448px;
-  background-repeat: no-repeat;
-}
-
-.icon-spiral {
-  background-position: 0 -320px;
-  width: 64px;
-  height: 64px;
-}
-
-.icon-star {
-  background-position: 0 -384px;
-  width: 64px;
-  height: 64px;
-}
-
-.icon-animation {
-  background-position: 0 0;
-  width: 320px;
-  height: 320px;
-}",
-  "desPath": "__tests__/build/css/style-svg-a.css",
-}
-`;
-
-exports[`__tests__/build/css/style-svg-a.css 2`] = `
-Object {
-  "content": "body {
-  padding: 50px;
-  font: 14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: #818100;
 }
 
@@ -90,48 +45,11 @@ a {
 }
 `;
 
-exports[`__tests__/build/css/style-svg-b.css 1`] = `
-Object {
+exports[`Spritify SVG .build() // SVG should build SVG sprites and update css layout left-right and padding 25 successfully: __tests__/build/css/style-svg-b.css 1`] = `
+{
   "content": "body {
   padding: 50px;
-  font: 14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif;
-  background: red;
-}
-
-.icon {
-  display: inline-block;
-}
-
-.icon-spiral {
-  background: url('../images/sprite.svg');
-  background-size: 320px 448px;
-  background-repeat: no-repeat;
-  background-position: 0 -320px;
-  width: 64px;
-  height: 64px;
-}
-
-.icon-star {
-  background: url('../images/sprite.svg');
-  background-position: 0 -384px;
-  width: 64px;
-  height: 64px;
-  background-size: 320px 448px;
-  background-repeat: no-repeat;
-}
-
-a {
-  color: #00B7FF;
-}",
-  "desPath": "__tests__/build/css/style-svg-b.css",
-}
-`;
-
-exports[`__tests__/build/css/style-svg-b.css 2`] = `
-Object {
-  "content": "body {
-  padding: 50px;
-  font: 14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: red;
 }
 
@@ -164,48 +82,11 @@ a {
 }
 `;
 
-exports[`__tests__/build/css/style-svg-c.min.css 1`] = `
-Object {
+exports[`Spritify SVG .build() // SVG should build SVG sprites and update css layout left-right and padding 25 successfully: __tests__/build/css/style-svg-c.min.css 1`] = `
+{
   "content": "body {
   padding: 50px;
-  font: 14px \\"Lucida Grande\\",Helvetica,Arial,sans-serif;
-  background: red;
-}
-
-.icon {
-  display: inline-block;
-}
-
-.icon-spiral {
-  background: url('../images/sprite.svg');
-  background-size: 320px 448px;
-  background-repeat: no-repeat;
-  background-position: 0 -320px;
-  width: 64px;
-  height: 64px;
-}
-
-.icon-star {
-  background: url('../images/sprite.svg');
-  width: 64px;
-  height: 64px;
-  background-size: 320px 448px;
-  background-repeat: no-repeat;
-  background-position: 0 -384px;
-}
-
-a {
-  color: #00B7FF;
-}",
-  "desPath": "__tests__/build/css/style-svg-c.min.css",
-}
-`;
-
-exports[`__tests__/build/css/style-svg-c.min.css 2`] = `
-Object {
-  "content": "body {
-  padding: 50px;
-  font: 14px \\"Lucida Grande\\",Helvetica,Arial,sans-serif;
+  font: 14px "Lucida Grande",Helvetica,Arial,sans-serif;
   background: red;
 }
 
@@ -238,49 +119,11 @@ a {
 }
 `;
 
-exports[`__tests__/build/css/style-svg-inline.css 1`] = `
-Object {
+exports[`Spritify SVG .build() // SVG should build SVG sprites and update css layout left-right and padding 25 successfully: __tests__/build/css/style-svg-inline.css 1`] = `
+{
   "content": "body {
   padding: 50px;
-  font: 14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif;
-  background: #818100;
-}
-
-a {
-  color: #00B7FF;
-}
-
-.icon {
-  display: inline-block;
-}
-
-.icon-spiral,
-.icon-star {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjQ0OCIgdmlld0JveD0iMCAwIDMyMCA0NDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxzdmcgeT0iMCIgd2lkdGg9IjMyMCIgaGVpZ2h0PSIzMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZGVmcz48cGF0aCBpZD0iMTI0eGV6ai1iIj48YW5pbWF0ZSBpZD0iMTI0eGV6ai1hIiBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbiIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1jIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rMXMiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbisxcyIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1kIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rMnMiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbisycyIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1lIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rM3MiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbiszcyIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1mIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rNHMiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbis0cyIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1nIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rNXMiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbis1cyIvPjwvcGF0aD48L2RlZnM+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1iIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1iIiB0cmFuc2Zvcm09InJvdGF0ZSg2MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYiIgdHJhbnNmb3JtPSJyb3RhdGUoMTIwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1iIiB0cmFuc2Zvcm09InJvdGF0ZSgxODAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWIiIHRyYW5zZm9ybT0icm90YXRlKDI0MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYiIgdHJhbnNmb3JtPSJyb3RhdGUoMzAwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1jIiB0cmFuc2Zvcm09InJvdGF0ZSgzMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYyIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWMiIHRyYW5zZm9ybT0icm90YXRlKDE1MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjEwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1jIiB0cmFuc2Zvcm09InJvdGF0ZSgyNzAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWMiIHRyYW5zZm9ybT0icm90YXRlKDMzMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZCIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZCIgdHJhbnNmb3JtPSJyb3RhdGUoNjAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWQiIHRyYW5zZm9ybT0icm90YXRlKDEyMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZCIgdHJhbnNmb3JtPSJyb3RhdGUoMTgwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1kIiB0cmFuc2Zvcm09InJvdGF0ZSgyNDAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWQiIHRyYW5zZm9ybT0icm90YXRlKDMwMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZSIgdHJhbnNmb3JtPSJyb3RhdGUoMzAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWUiIHRyYW5zZm9ybT0icm90YXRlKDkwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1lIiB0cmFuc2Zvcm09InJvdGF0ZSgxNTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWUiIHRyYW5zZm9ybT0icm90YXRlKDIxMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZSIgdHJhbnNmb3JtPSJyb3RhdGUoMjcwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1lIiB0cmFuc2Zvcm09InJvdGF0ZSgzMzAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWYiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWYiIHRyYW5zZm9ybT0icm90YXRlKDYwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1mIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWYiIHRyYW5zZm9ybT0icm90YXRlKDE4MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZiIgdHJhbnNmb3JtPSJyb3RhdGUoMjQwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1mIiB0cmFuc2Zvcm09InJvdGF0ZSgzMDAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWciIHRyYW5zZm9ybT0icm90YXRlKDMwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1nIiB0cmFuc2Zvcm09InJvdGF0ZSg5MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZyIgdHJhbnNmb3JtPSJyb3RhdGUoMTUwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1nIiB0cmFuc2Zvcm09InJvdGF0ZSgyMTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWciIHRyYW5zZm9ybT0icm90YXRlKDI3MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZyIgdHJhbnNmb3JtPSJyb3RhdGUoMzMwIDE2MCAxNjApIi8+PC9zdmc+PHN2ZyB5PSIzMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij48ZGVmcy8+PGc+PHBhdGggZD0iTTI5LjYzNiAzMC4zNjRjLjk2NyAxLjIxMi0xLjE1NyAxLjktMi4wMTUgMS42MDYtMi4zMjQtLjc5OS0yLjM2Mi0zLjg5NS0xLjE5Ny01LjYzNyAyLjA4NS0zLjExNCA2LjU3LTMgOS4yNTgtLjc4OCAzLjk0NCAzLjI0OCAzLjY2MiA5LjI4My4zNzkgMTIuODgtNC4zNzcgNC43OTItMTIuMDEgNC4zMzQtMTYuNS0uMDMxQzEzLjkxIDMyLjkgMTQuNTQ4IDIzLjY1IDIwIDE4LjI3M2M2LjYwMy02LjUxNCAxNy40OC01LjY5MyAyMy43NDIuODQ4IDcuMzggNy43MSA2LjM3NiAyMC4yMi0xLjI1NyAyNy4zNjQtOC44MTMgOC4yNDgtMjIuOTYgNy4wNi0zMC45ODUtMS42NjctOS4xMTgtOS45MTYtNy43NDUtMjUuNzAyIDIuMDc2LTM0LjYwNkMyNC41OTMuMjIzIDQyLjAyIDEuNzgyIDUxLjgwMyAxMi42OTdjMTAuODYgMTIuMTE4IDkuMTE3IDMxLjE4OC0yLjg5NCA0MS44NDgiIGZpbGw9IiNkMzhkNWYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjMDAwIi8+PC9nPjwvc3ZnPjxzdmcgeT0iMzg0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCI+PGRlZnMvPjxnPjxwYXRoIGQ9Ik00OS4wOSA1OC4zNjRMMzEgNDguMTcybC0xOC42NSA5LjEyNSA0LjEwMi0yMC4zNTRMMi4wMTEgMjIuMDI1bDIwLjYyNS0yLjM4OSA5LjcyNi0xOC4zNDQgOC42NDUgMTguODc4IDIwLjQ1MiAzLjU4LTE1LjI4MyAxNC4wNTZ6IiBmaWxsPSIjZmZiMzgwIi8+PC9nPjwvc3ZnPjwvc3ZnPg==');
-  background-size: 320px 448px;
-  background-repeat: no-repeat;
-}
-
-.icon-spiral {
-  background-position: 0 -320px;
-  width: 64px;
-  height: 64px;
-}
-
-.icon-star {
-  background-position: 0 -384px;
-  width: 64px;
-  height: 64px;
-}",
-  "desPath": "__tests__/build/css/style-svg-inline.css",
-}
-`;
-
-exports[`__tests__/build/css/style-svg-inline.css 2`] = `
-Object {
-  "content": "body {
-  padding: 50px;
-  font: 14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: #818100;
 }
 
@@ -307,6 +150,163 @@ a {
 
 .icon-star {
   background-position: -434px 0;
+  width: 64px;
+  height: 64px;
+}",
+  "desPath": "__tests__/build/css/style-svg-inline.css",
+}
+`;
+
+exports[`Spritify SVG .build() // SVG should build SVG sprites and update css successfully: __tests__/build/css/style-svg-a.css 1`] = `
+{
+  "content": "body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #818100;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon-spiral,
+.icon-star,
+.icon-animation {
+  background-image: url('../images/sprite.svg');
+  background-size: 320px 448px;
+  background-repeat: no-repeat;
+}
+
+.icon-spiral {
+  background-position: 0 -320px;
+  width: 64px;
+  height: 64px;
+}
+
+.icon-star {
+  background-position: 0 -384px;
+  width: 64px;
+  height: 64px;
+}
+
+.icon-animation {
+  background-position: 0 0;
+  width: 320px;
+  height: 320px;
+}",
+  "desPath": "__tests__/build/css/style-svg-a.css",
+}
+`;
+
+exports[`Spritify SVG .build() // SVG should build SVG sprites and update css successfully: __tests__/build/css/style-svg-b.css 1`] = `
+{
+  "content": "body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: red;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon-spiral {
+  background: url('../images/sprite.svg');
+  background-size: 320px 448px;
+  background-repeat: no-repeat;
+  background-position: 0 -320px;
+  width: 64px;
+  height: 64px;
+}
+
+.icon-star {
+  background: url('../images/sprite.svg');
+  background-position: 0 -384px;
+  width: 64px;
+  height: 64px;
+  background-size: 320px 448px;
+  background-repeat: no-repeat;
+}
+
+a {
+  color: #00B7FF;
+}",
+  "desPath": "__tests__/build/css/style-svg-b.css",
+}
+`;
+
+exports[`Spritify SVG .build() // SVG should build SVG sprites and update css successfully: __tests__/build/css/style-svg-c.min.css 1`] = `
+{
+  "content": "body {
+  padding: 50px;
+  font: 14px "Lucida Grande",Helvetica,Arial,sans-serif;
+  background: red;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon-spiral {
+  background: url('../images/sprite.svg');
+  background-size: 320px 448px;
+  background-repeat: no-repeat;
+  background-position: 0 -320px;
+  width: 64px;
+  height: 64px;
+}
+
+.icon-star {
+  background: url('../images/sprite.svg');
+  width: 64px;
+  height: 64px;
+  background-size: 320px 448px;
+  background-repeat: no-repeat;
+  background-position: 0 -384px;
+}
+
+a {
+  color: #00B7FF;
+}",
+  "desPath": "__tests__/build/css/style-svg-c.min.css",
+}
+`;
+
+exports[`Spritify SVG .build() // SVG should build SVG sprites and update css successfully: __tests__/build/css/style-svg-inline.css 1`] = `
+{
+  "content": "body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #818100;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon-spiral,
+.icon-star {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjQ0OCIgdmlld0JveD0iMCAwIDMyMCA0NDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxzdmcgeT0iMCIgd2lkdGg9IjMyMCIgaGVpZ2h0PSIzMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZGVmcz48cGF0aCBpZD0iMTI0eGV6ai1iIj48YW5pbWF0ZSBpZD0iMTI0eGV6ai1hIiBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbiIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1jIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rMXMiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbisxcyIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1kIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rMnMiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbisycyIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1lIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rM3MiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbiszcyIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1mIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rNHMiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbis0cyIvPjwvcGF0aD48cGF0aCBpZD0iMTI0eGV6ai1nIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJkIiB2YWx1ZXM9Im0xNjAsMTYwbDAsMCAwLDA7bTEzMCwxMTBsMzAsLTE3IDMwLDE3O20xMzAsNjBsMzAsLTE3IDMwLDE3O20xNjAsMjBsMCwwIDAsMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxMjR4ZXpqLWEuYmVnaW4rNXMiLz48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utd2lkdGgiIHZhbHVlcz0iMDs0OzQ7NDswIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbis1cyIvPjwvcGF0aD48L2RlZnM+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1iIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1iIiB0cmFuc2Zvcm09InJvdGF0ZSg2MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYiIgdHJhbnNmb3JtPSJyb3RhdGUoMTIwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1iIiB0cmFuc2Zvcm09InJvdGF0ZSgxODAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWIiIHRyYW5zZm9ybT0icm90YXRlKDI0MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYiIgdHJhbnNmb3JtPSJyb3RhdGUoMzAwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1jIiB0cmFuc2Zvcm09InJvdGF0ZSgzMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYyIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWMiIHRyYW5zZm9ybT0icm90YXRlKDE1MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYyIgdHJhbnNmb3JtPSJyb3RhdGUoMjEwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1jIiB0cmFuc2Zvcm09InJvdGF0ZSgyNzAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWMiIHRyYW5zZm9ybT0icm90YXRlKDMzMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZCIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZCIgdHJhbnNmb3JtPSJyb3RhdGUoNjAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWQiIHRyYW5zZm9ybT0icm90YXRlKDEyMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZCIgdHJhbnNmb3JtPSJyb3RhdGUoMTgwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1kIiB0cmFuc2Zvcm09InJvdGF0ZSgyNDAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWQiIHRyYW5zZm9ybT0icm90YXRlKDMwMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZSIgdHJhbnNmb3JtPSJyb3RhdGUoMzAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWUiIHRyYW5zZm9ybT0icm90YXRlKDkwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1lIiB0cmFuc2Zvcm09InJvdGF0ZSgxNTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWUiIHRyYW5zZm9ybT0icm90YXRlKDIxMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZSIgdHJhbnNmb3JtPSJyb3RhdGUoMjcwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1lIiB0cmFuc2Zvcm09InJvdGF0ZSgzMzAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWYiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWYiIHRyYW5zZm9ybT0icm90YXRlKDYwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1mIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWYiIHRyYW5zZm9ybT0icm90YXRlKDE4MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZiIgdHJhbnNmb3JtPSJyb3RhdGUoMjQwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1mIiB0cmFuc2Zvcm09InJvdGF0ZSgzMDAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWciIHRyYW5zZm9ybT0icm90YXRlKDMwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1nIiB0cmFuc2Zvcm09InJvdGF0ZSg5MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZyIgdHJhbnNmb3JtPSJyb3RhdGUoMTUwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1nIiB0cmFuc2Zvcm09InJvdGF0ZSgyMTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWciIHRyYW5zZm9ybT0icm90YXRlKDI3MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZyIgdHJhbnNmb3JtPSJyb3RhdGUoMzMwIDE2MCAxNjApIi8+PC9zdmc+PHN2ZyB5PSIzMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij48ZGVmcy8+PGc+PHBhdGggZD0iTTI5LjYzNiAzMC4zNjRjLjk2NyAxLjIxMi0xLjE1NyAxLjktMi4wMTUgMS42MDYtMi4zMjQtLjc5OS0yLjM2Mi0zLjg5NS0xLjE5Ny01LjYzNyAyLjA4NS0zLjExNCA2LjU3LTMgOS4yNTgtLjc4OCAzLjk0NCAzLjI0OCAzLjY2MiA5LjI4My4zNzkgMTIuODgtNC4zNzcgNC43OTItMTIuMDEgNC4zMzQtMTYuNS0uMDMxQzEzLjkxIDMyLjkgMTQuNTQ4IDIzLjY1IDIwIDE4LjI3M2M2LjYwMy02LjUxNCAxNy40OC01LjY5MyAyMy43NDIuODQ4IDcuMzggNy43MSA2LjM3NiAyMC4yMi0xLjI1NyAyNy4zNjQtOC44MTMgOC4yNDgtMjIuOTYgNy4wNi0zMC45ODUtMS42NjctOS4xMTgtOS45MTYtNy43NDUtMjUuNzAyIDIuMDc2LTM0LjYwNkMyNC41OTMuMjIzIDQyLjAyIDEuNzgyIDUxLjgwMyAxMi42OTdjMTAuODYgMTIuMTE4IDkuMTE3IDMxLjE4OC0yLjg5NCA0MS44NDgiIGZpbGw9IiNkMzhkNWYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjMDAwIi8+PC9nPjwvc3ZnPjxzdmcgeT0iMzg0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCI+PGRlZnMvPjxnPjxwYXRoIGQ9Ik00OS4wOSA1OC4zNjRMMzEgNDguMTcybC0xOC42NSA5LjEyNSA0LjEwMi0yMC4zNTRMMi4wMTEgMjIuMDI1bDIwLjYyNS0yLjM4OSA5LjcyNi0xOC4zNDQgOC42NDUgMTguODc4IDIwLjQ1MiAzLjU4LTE1LjI4MyAxNC4wNTZ6IiBmaWxsPSIjZmZiMzgwIi8+PC9nPjwvc3ZnPjwvc3ZnPg==');
+  background-size: 320px 448px;
+  background-repeat: no-repeat;
+}
+
+.icon-spiral {
+  background-position: 0 -320px;
+  width: 64px;
+  height: 64px;
+}
+
+.icon-star {
+  background-position: 0 -384px;
   width: 64px;
   height: 64px;
 }",

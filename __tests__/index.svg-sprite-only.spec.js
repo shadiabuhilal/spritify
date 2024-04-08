@@ -6,7 +6,7 @@
 
 describe('Spritify SVG', () => {
 
-    const TestUtil = require.requireActual('./test-util.js');
+    const TestUtil = jest.requireActual('./test-util.js');
 
     const testObj = TestUtil.initTest();
 

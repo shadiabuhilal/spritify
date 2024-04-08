@@ -40,14 +40,14 @@ const reset = () => {
 
  const initTest = () => {
 
-    const Path = require.requireActual('path');
+    const Path = jest.requireActual('path');
 
     beforeAll(() => {
 
         reset();
 
         // mock modules - start
-        jest.mock('fs', () => require.requireActual('fs'));
+        jest.mock('fs', () => jest.requireActual('fs'));
 
         jest.mock('mkdirp', () => jest.fn((desDir, callback) => {
 
@@ -99,7 +99,7 @@ const reset = () => {
                 return;
             }
 
-            require.requireActual('spritesmith').run(options, callback);
+            jest.requireActual('spritesmith').run(options, callback);
         });
         // mock functions - end
 

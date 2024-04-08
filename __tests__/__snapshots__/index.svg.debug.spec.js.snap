@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`__tests__/build/css/style-svg-a.css 1`] = `
-Object {
+exports[`Spritify SVG DEBUG .build() // SVG DEBUG should build SVG sprites and update css successfully (DEBUG MODE): __tests__/build/css/style-svg-a.css 1`] = `
+{
   "content": "body {
   padding: 50px;
-  font: 14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: #818100;
 }
 
@@ -45,343 +45,343 @@ a {
 }
 `;
 
-exports[`__tests__/build/css/style-svg-a.css.json 1`] = `
-Object {
+exports[`Spritify SVG DEBUG .build() // SVG DEBUG should build SVG sprites and update css successfully (DEBUG MODE): __tests__/build/css/style-svg-a.css.json 1`] = `
+{
   "content": "{
-    \\"type\\": \\"stylesheet\\",
-    \\"stylesheet\\": {
-        \\"rules\\": [
+    "type": "stylesheet",
+    "stylesheet": {
+        "rules": [
             {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\"body\\"
+                "type": "rule",
+                "selectors": [
+                    "body"
                 ],
-                \\"declarations\\": [
+                "declarations": [
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"padding\\",
-                        \\"value\\": \\"50px\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 2,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "padding",
+                        "value": "50px",
+                        "position": {
+                            "start": {
+                                "line": 2,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 2,
-                                \\"column\\": 16
+                            "end": {
+                                "line": 2,
+                                "column": 16
                             }
                         }
                     },
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"font\\",
-                        \\"value\\": \\"14px \\\\\\"Lucida Grande\\\\\\", Helvetica, Arial, sans-serif\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 3,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "font",
+                        "value": "14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif",
+                        "position": {
+                            "start": {
+                                "line": 3,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 3,
-                                \\"column\\": 59
+                            "end": {
+                                "line": 3,
+                                "column": 59
                             }
                         }
                     },
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"background\\",
-                        \\"value\\": \\"#818100\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 4,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "background",
+                        "value": "#818100",
+                        "position": {
+                            "start": {
+                                "line": 4,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 4,
-                                \\"column\\": 22
+                            "end": {
+                                "line": 4,
+                                "column": 22
                             }
                         }
                     }
                 ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 1,
-                        \\"column\\": 1
+                "position": {
+                    "start": {
+                        "line": 1,
+                        "column": 1
                     },
-                    \\"end\\": {
-                        \\"line\\": 5,
-                        \\"column\\": 2
+                    "end": {
+                        "line": 5,
+                        "column": 2
                     }
                 }
             },
             {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\"a\\"
+                "type": "rule",
+                "selectors": [
+                    "a"
                 ],
-                \\"declarations\\": [
+                "declarations": [
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"color\\",
-                        \\"value\\": \\"#00B7FF\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 8,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "color",
+                        "value": "#00B7FF",
+                        "position": {
+                            "start": {
+                                "line": 8,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 8,
-                                \\"column\\": 17
+                            "end": {
+                                "line": 8,
+                                "column": 17
                             }
                         }
                     }
                 ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 7,
-                        \\"column\\": 1
+                "position": {
+                    "start": {
+                        "line": 7,
+                        "column": 1
                     },
-                    \\"end\\": {
-                        \\"line\\": 9,
-                        \\"column\\": 2
-                    }
-                }
-            },
-            {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\".icon\\"
-                ],
-                \\"declarations\\": [
-                    {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"display\\",
-                        \\"value\\": \\"inline-block\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 12,
-                                \\"column\\": 3
-                            },
-                            \\"end\\": {
-                                \\"line\\": 12,
-                                \\"column\\": 24
-                            }
-                        }
-                    }
-                ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 11,
-                        \\"column\\": 1
-                    },
-                    \\"end\\": {
-                        \\"line\\": 13,
-                        \\"column\\": 2
+                    "end": {
+                        "line": 9,
+                        "column": 2
                     }
                 }
             },
             {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\".icon-spiral\\"
+                "type": "rule",
+                "selectors": [
+                    ".icon"
                 ],
-                \\"declarations\\": [
+                "declarations": [
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"background\\",
-                        \\"value\\": \\"#ffffff url(\\\\\\"../img/svg/spiral.svg\\\\\\") no-repeat right top\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 16,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "display",
+                        "value": "inline-block",
+                        "position": {
+                            "start": {
+                                "line": 12,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 16,
-                                \\"column\\": 71
-                            }
-                        }
-                    },
-                    {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"background-position\\",
-                        \\"value\\": \\"-100px -200px\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 17,
-                                \\"column\\": 3
-                            },
-                            \\"end\\": {
-                                \\"line\\": 17,
-                                \\"column\\": 37
-                            }
-                        }
-                    },
-                    {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"width\\",
-                        \\"value\\": \\"100px\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 18,
-                                \\"column\\": 3
-                            },
-                            \\"end\\": {
-                                \\"line\\": 18,
-                                \\"column\\": 15
-                            }
-                        }
-                    },
-                    {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"height\\",
-                        \\"value\\": \\"100px\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 19,
-                                \\"column\\": 3
-                            },
-                            \\"end\\": {
-                                \\"line\\": 19,
-                                \\"column\\": 16
+                            "end": {
+                                "line": 12,
+                                "column": 24
                             }
                         }
                     }
                 ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 15,
-                        \\"column\\": 1
+                "position": {
+                    "start": {
+                        "line": 11,
+                        "column": 1
                     },
-                    \\"end\\": {
-                        \\"line\\": 20,
-                        \\"column\\": 2
+                    "end": {
+                        "line": 13,
+                        "column": 2
                     }
                 }
             },
             {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\".icon-star\\"
+                "type": "rule",
+                "selectors": [
+                    ".icon-spiral"
                 ],
-                \\"declarations\\": [
+                "declarations": [
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"background\\",
-                        \\"value\\": \\"#ffffff url(\\\\\\"../img/svg/star.svg\\\\\\") no-repeat right top\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 23,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "background",
+                        "value": "#ffffff url(\\"../img/svg/spiral.svg\\") no-repeat right top",
+                        "position": {
+                            "start": {
+                                "line": 16,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 23,
-                                \\"column\\": 69
+                            "end": {
+                                "line": 16,
+                                "column": 71
                             }
                         }
                     },
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"background-position\\",
-                        \\"value\\": \\"-100px -200px\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 24,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "background-position",
+                        "value": "-100px -200px",
+                        "position": {
+                            "start": {
+                                "line": 17,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 24,
-                                \\"column\\": 37
+                            "end": {
+                                "line": 17,
+                                "column": 37
                             }
                         }
                     },
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"width\\",
-                        \\"value\\": \\"100px\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 25,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "width",
+                        "value": "100px",
+                        "position": {
+                            "start": {
+                                "line": 18,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 25,
-                                \\"column\\": 15
+                            "end": {
+                                "line": 18,
+                                "column": 15
                             }
                         }
                     },
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"height\\",
-                        \\"value\\": \\"100px\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 26,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "height",
+                        "value": "100px",
+                        "position": {
+                            "start": {
+                                "line": 19,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 26,
-                                \\"column\\": 16
+                            "end": {
+                                "line": 19,
+                                "column": 16
                             }
                         }
                     }
                 ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 22,
-                        \\"column\\": 1
+                "position": {
+                    "start": {
+                        "line": 15,
+                        "column": 1
                     },
-                    \\"end\\": {
-                        \\"line\\": 27,
-                        \\"column\\": 2
+                    "end": {
+                        "line": 20,
+                        "column": 2
                     }
                 }
             },
             {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\".icon-animation\\"
+                "type": "rule",
+                "selectors": [
+                    ".icon-star"
                 ],
-                \\"declarations\\": [
+                "declarations": [
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"background-image\\",
-                        \\"value\\": \\"url(\\\\\\"../img/svg/animation.svg\\\\\\")\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 30,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "background",
+                        "value": "#ffffff url(\\"../img/svg/star.svg\\") no-repeat right top",
+                        "position": {
+                            "start": {
+                                "line": 23,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 30,
-                                \\"column\\": 52
+                            "end": {
+                                "line": 23,
+                                "column": 69
+                            }
+                        }
+                    },
+                    {
+                        "type": "declaration",
+                        "property": "background-position",
+                        "value": "-100px -200px",
+                        "position": {
+                            "start": {
+                                "line": 24,
+                                "column": 3
+                            },
+                            "end": {
+                                "line": 24,
+                                "column": 37
+                            }
+                        }
+                    },
+                    {
+                        "type": "declaration",
+                        "property": "width",
+                        "value": "100px",
+                        "position": {
+                            "start": {
+                                "line": 25,
+                                "column": 3
+                            },
+                            "end": {
+                                "line": 25,
+                                "column": 15
+                            }
+                        }
+                    },
+                    {
+                        "type": "declaration",
+                        "property": "height",
+                        "value": "100px",
+                        "position": {
+                            "start": {
+                                "line": 26,
+                                "column": 3
+                            },
+                            "end": {
+                                "line": 26,
+                                "column": 16
                             }
                         }
                     }
                 ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 29,
-                        \\"column\\": 1
+                "position": {
+                    "start": {
+                        "line": 22,
+                        "column": 1
                     },
-                    \\"end\\": {
-                        \\"line\\": 31,
-                        \\"column\\": 2
+                    "end": {
+                        "line": 27,
+                        "column": 2
+                    }
+                }
+            },
+            {
+                "type": "rule",
+                "selectors": [
+                    ".icon-animation"
+                ],
+                "declarations": [
+                    {
+                        "type": "declaration",
+                        "property": "background-image",
+                        "value": "url(\\"../img/svg/animation.svg\\")",
+                        "position": {
+                            "start": {
+                                "line": 30,
+                                "column": 3
+                            },
+                            "end": {
+                                "line": 30,
+                                "column": 52
+                            }
+                        }
+                    }
+                ],
+                "position": {
+                    "start": {
+                        "line": 29,
+                        "column": 1
+                    },
+                    "end": {
+                        "line": 31,
+                        "column": 2
                     }
                 }
             }
         ],
-        \\"parsingErrors\\": []
+        "parsingErrors": []
     }
 }",
   "desPath": "__tests__/build/css/style-svg-a.css.json",
 }
 `;
 
-exports[`__tests__/build/css/style-svg-b.css 1`] = `
-Object {
+exports[`Spritify SVG DEBUG .build() // SVG DEBUG should build SVG sprites and update css successfully (DEBUG MODE): __tests__/build/css/style-svg-b.css 1`] = `
+{
   "content": "body {
   padding: 50px;
-  font: 14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: red;
 }
 
@@ -414,265 +414,265 @@ a {
 }
 `;
 
-exports[`__tests__/build/css/style-svg-b.css.json 1`] = `
-Object {
+exports[`Spritify SVG DEBUG .build() // SVG DEBUG should build SVG sprites and update css successfully (DEBUG MODE): __tests__/build/css/style-svg-b.css.json 1`] = `
+{
   "content": "{
-    \\"type\\": \\"stylesheet\\",
-    \\"stylesheet\\": {
-        \\"rules\\": [
+    "type": "stylesheet",
+    "stylesheet": {
+        "rules": [
             {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\"body\\"
+                "type": "rule",
+                "selectors": [
+                    "body"
                 ],
-                \\"declarations\\": [
+                "declarations": [
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"padding\\",
-                        \\"value\\": \\"50px\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 2,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "padding",
+                        "value": "50px",
+                        "position": {
+                            "start": {
+                                "line": 2,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 2,
-                                \\"column\\": 16
+                            "end": {
+                                "line": 2,
+                                "column": 16
                             }
                         }
                     },
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"font\\",
-                        \\"value\\": \\"14px \\\\\\"Lucida Grande\\\\\\", Helvetica, Arial, sans-serif\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 3,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "font",
+                        "value": "14px \\"Lucida Grande\\", Helvetica, Arial, sans-serif",
+                        "position": {
+                            "start": {
+                                "line": 3,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 3,
-                                \\"column\\": 59
+                            "end": {
+                                "line": 3,
+                                "column": 59
                             }
                         }
                     },
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"background\\",
-                        \\"value\\": \\"red\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 4,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "background",
+                        "value": "red",
+                        "position": {
+                            "start": {
+                                "line": 4,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 4,
-                                \\"column\\": 18
+                            "end": {
+                                "line": 4,
+                                "column": 18
                             }
                         }
                     }
                 ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 1,
-                        \\"column\\": 1
+                "position": {
+                    "start": {
+                        "line": 1,
+                        "column": 1
                     },
-                    \\"end\\": {
-                        \\"line\\": 5,
-                        \\"column\\": 2
+                    "end": {
+                        "line": 5,
+                        "column": 2
                     }
                 }
             },
             {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\".icon\\"
+                "type": "rule",
+                "selectors": [
+                    ".icon"
                 ],
-                \\"declarations\\": [
+                "declarations": [
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"display\\",
-                        \\"value\\": \\"inline-block\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 8,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "display",
+                        "value": "inline-block",
+                        "position": {
+                            "start": {
+                                "line": 8,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 8,
-                                \\"column\\": 24
+                            "end": {
+                                "line": 8,
+                                "column": 24
                             }
                         }
                     }
                 ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 7,
-                        \\"column\\": 1
+                "position": {
+                    "start": {
+                        "line": 7,
+                        "column": 1
                     },
-                    \\"end\\": {
-                        \\"line\\": 9,
-                        \\"column\\": 2
-                    }
-                }
-            },
-            {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\".icon-spiral\\"
-                ],
-                \\"declarations\\": [
-                    {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"background\\",
-                        \\"value\\": \\"#ffffff url(\\\\\\"../img/svg/spiral.svg\\\\\\") no-repeat right top\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 12,
-                                \\"column\\": 3
-                            },
-                            \\"end\\": {
-                                \\"line\\": 12,
-                                \\"column\\": 71
-                            }
-                        }
-                    }
-                ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 11,
-                        \\"column\\": 1
-                    },
-                    \\"end\\": {
-                        \\"line\\": 13,
-                        \\"column\\": 2
+                    "end": {
+                        "line": 9,
+                        "column": 2
                     }
                 }
             },
             {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\".icon-star\\"
+                "type": "rule",
+                "selectors": [
+                    ".icon-spiral"
                 ],
-                \\"declarations\\": [
+                "declarations": [
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"background\\",
-                        \\"value\\": \\"#ffffff url(\\\\\\"../img/svg/star.svg\\\\\\") no-repeat right top\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 16,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "background",
+                        "value": "#ffffff url(\\"../img/svg/spiral.svg\\") no-repeat right top",
+                        "position": {
+                            "start": {
+                                "line": 12,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 16,
-                                \\"column\\": 69
-                            }
-                        }
-                    },
-                    {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"background-position\\",
-                        \\"value\\": \\"-100px -200px\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 17,
-                                \\"column\\": 3
-                            },
-                            \\"end\\": {
-                                \\"line\\": 17,
-                                \\"column\\": 37
-                            }
-                        }
-                    },
-                    {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"width\\",
-                        \\"value\\": \\"100px\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 18,
-                                \\"column\\": 3
-                            },
-                            \\"end\\": {
-                                \\"line\\": 18,
-                                \\"column\\": 15
-                            }
-                        }
-                    },
-                    {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"height\\",
-                        \\"value\\": \\"100px\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 19,
-                                \\"column\\": 3
-                            },
-                            \\"end\\": {
-                                \\"line\\": 19,
-                                \\"column\\": 16
+                            "end": {
+                                "line": 12,
+                                "column": 71
                             }
                         }
                     }
                 ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 15,
-                        \\"column\\": 1
+                "position": {
+                    "start": {
+                        "line": 11,
+                        "column": 1
                     },
-                    \\"end\\": {
-                        \\"line\\": 20,
-                        \\"column\\": 2
+                    "end": {
+                        "line": 13,
+                        "column": 2
                     }
                 }
             },
             {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\"a\\"
+                "type": "rule",
+                "selectors": [
+                    ".icon-star"
                 ],
-                \\"declarations\\": [
+                "declarations": [
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"color\\",
-                        \\"value\\": \\"#00B7FF\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 23,
-                                \\"column\\": 3
+                        "type": "declaration",
+                        "property": "background",
+                        "value": "#ffffff url(\\"../img/svg/star.svg\\") no-repeat right top",
+                        "position": {
+                            "start": {
+                                "line": 16,
+                                "column": 3
                             },
-                            \\"end\\": {
-                                \\"line\\": 23,
-                                \\"column\\": 17
+                            "end": {
+                                "line": 16,
+                                "column": 69
+                            }
+                        }
+                    },
+                    {
+                        "type": "declaration",
+                        "property": "background-position",
+                        "value": "-100px -200px",
+                        "position": {
+                            "start": {
+                                "line": 17,
+                                "column": 3
+                            },
+                            "end": {
+                                "line": 17,
+                                "column": 37
+                            }
+                        }
+                    },
+                    {
+                        "type": "declaration",
+                        "property": "width",
+                        "value": "100px",
+                        "position": {
+                            "start": {
+                                "line": 18,
+                                "column": 3
+                            },
+                            "end": {
+                                "line": 18,
+                                "column": 15
+                            }
+                        }
+                    },
+                    {
+                        "type": "declaration",
+                        "property": "height",
+                        "value": "100px",
+                        "position": {
+                            "start": {
+                                "line": 19,
+                                "column": 3
+                            },
+                            "end": {
+                                "line": 19,
+                                "column": 16
                             }
                         }
                     }
                 ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 22,
-                        \\"column\\": 1
+                "position": {
+                    "start": {
+                        "line": 15,
+                        "column": 1
                     },
-                    \\"end\\": {
-                        \\"line\\": 24,
-                        \\"column\\": 2
+                    "end": {
+                        "line": 20,
+                        "column": 2
+                    }
+                }
+            },
+            {
+                "type": "rule",
+                "selectors": [
+                    "a"
+                ],
+                "declarations": [
+                    {
+                        "type": "declaration",
+                        "property": "color",
+                        "value": "#00B7FF",
+                        "position": {
+                            "start": {
+                                "line": 23,
+                                "column": 3
+                            },
+                            "end": {
+                                "line": 23,
+                                "column": 17
+                            }
+                        }
+                    }
+                ],
+                "position": {
+                    "start": {
+                        "line": 22,
+                        "column": 1
+                    },
+                    "end": {
+                        "line": 24,
+                        "column": 2
                     }
                 }
             }
         ],
-        \\"parsingErrors\\": []
+        "parsingErrors": []
     }
 }",
   "desPath": "__tests__/build/css/style-svg-b.css.json",
 }
 `;
 
-exports[`__tests__/build/css/style-svg-c.min.css 1`] = `
-Object {
+exports[`Spritify SVG DEBUG .build() // SVG DEBUG should build SVG sprites and update css successfully (DEBUG MODE): __tests__/build/css/style-svg-c.min.css 1`] = `
+{
   "content": "body {
   padding: 50px;
-  font: 14px \\"Lucida Grande\\",Helvetica,Arial,sans-serif;
+  font: 14px "Lucida Grande",Helvetica,Arial,sans-serif;
   background: red;
 }
 
@@ -705,279 +705,279 @@ a {
 }
 `;
 
-exports[`__tests__/build/css/style-svg-c.min.css.json 1`] = `
-Object {
+exports[`Spritify SVG DEBUG .build() // SVG DEBUG should build SVG sprites and update css successfully (DEBUG MODE): __tests__/build/css/style-svg-c.min.css.json 1`] = `
+{
   "content": "{
-    \\"type\\": \\"stylesheet\\",
-    \\"stylesheet\\": {
-        \\"rules\\": [
+    "type": "stylesheet",
+    "stylesheet": {
+        "rules": [
             {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\"body\\"
+                "type": "rule",
+                "selectors": [
+                    "body"
                 ],
-                \\"declarations\\": [
+                "declarations": [
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"padding\\",
-                        \\"value\\": \\"50px\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 6
+                        "type": "declaration",
+                        "property": "padding",
+                        "value": "50px",
+                        "position": {
+                            "start": {
+                                "line": 1,
+                                "column": 6
                             },
-                            \\"end\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 18
+                            "end": {
+                                "line": 1,
+                                "column": 18
                             }
                         }
                     },
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"font\\",
-                        \\"value\\": \\"14px \\\\\\"Lucida Grande\\\\\\",Helvetica,Arial,sans-serif\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 19
+                        "type": "declaration",
+                        "property": "font",
+                        "value": "14px \\"Lucida Grande\\",Helvetica,Arial,sans-serif",
+                        "position": {
+                            "start": {
+                                "line": 1,
+                                "column": 19
                             },
-                            \\"end\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 71
+                            "end": {
+                                "line": 1,
+                                "column": 71
                             }
                         }
                     },
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"background\\",
-                        \\"value\\": \\"red\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 72
+                        "type": "declaration",
+                        "property": "background",
+                        "value": "red",
+                        "position": {
+                            "start": {
+                                "line": 1,
+                                "column": 72
                             },
-                            \\"end\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 86
+                            "end": {
+                                "line": 1,
+                                "column": 86
                             }
                         }
                     }
                 ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 1,
-                        \\"column\\": 1
+                "position": {
+                    "start": {
+                        "line": 1,
+                        "column": 1
                     },
-                    \\"end\\": {
-                        \\"line\\": 1,
-                        \\"column\\": 87
+                    "end": {
+                        "line": 1,
+                        "column": 87
                     }
                 }
             },
             {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\".icon\\"
+                "type": "rule",
+                "selectors": [
+                    ".icon"
                 ],
-                \\"declarations\\": [
+                "declarations": [
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"display\\",
-                        \\"value\\": \\"inline-block\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 93
+                        "type": "declaration",
+                        "property": "display",
+                        "value": "inline-block",
+                        "position": {
+                            "start": {
+                                "line": 1,
+                                "column": 93
                             },
-                            \\"end\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 113
+                            "end": {
+                                "line": 1,
+                                "column": 113
                             }
                         }
                     }
                 ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 1,
-                        \\"column\\": 87
+                "position": {
+                    "start": {
+                        "line": 1,
+                        "column": 87
                     },
-                    \\"end\\": {
-                        \\"line\\": 1,
-                        \\"column\\": 114
+                    "end": {
+                        "line": 1,
+                        "column": 114
                     }
                 }
             },
             {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\".icon-spiral\\"
+                "type": "rule",
+                "selectors": [
+                    ".icon-spiral"
                 ],
-                \\"declarations\\": [
+                "declarations": [
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"background\\",
-                        \\"value\\": \\"url(../img/svg/spiral.svg) right top no-repeat #fff\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 127
+                        "type": "declaration",
+                        "property": "background",
+                        "value": "url(../img/svg/spiral.svg) right top no-repeat #fff",
+                        "position": {
+                            "start": {
+                                "line": 1,
+                                "column": 127
                             },
-                            \\"end\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 189
+                            "end": {
+                                "line": 1,
+                                "column": 189
                             }
                         }
                     }
                 ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 1,
-                        \\"column\\": 114
+                "position": {
+                    "start": {
+                        "line": 1,
+                        "column": 114
                     },
-                    \\"end\\": {
-                        \\"line\\": 1,
-                        \\"column\\": 190
-                    }
-                }
-            },
-            {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\".icon-star\\"
-                ],
-                \\"declarations\\": [
-                    {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"background\\",
-                        \\"value\\": \\"url(../img/svg/star.svg) -100px -200px no-repeat #fff\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 201
-                            },
-                            \\"end\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 265
-                            }
-                        }
-                    },
-                    {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"width\\",
-                        \\"value\\": \\"100px\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 266
-                            },
-                            \\"end\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 277
-                            }
-                        }
-                    },
-                    {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"height\\",
-                        \\"value\\": \\"100px\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 278
-                            },
-                            \\"end\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 290
-                            }
-                        }
-                    }
-                ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 1,
-                        \\"column\\": 190
-                    },
-                    \\"end\\": {
-                        \\"line\\": 1,
-                        \\"column\\": 291
+                    "end": {
+                        "line": 1,
+                        "column": 190
                     }
                 }
             },
             {
-                \\"type\\": \\"rule\\",
-                \\"selectors\\": [
-                    \\"a\\"
+                "type": "rule",
+                "selectors": [
+                    ".icon-star"
                 ],
-                \\"declarations\\": [
+                "declarations": [
                     {
-                        \\"type\\": \\"declaration\\",
-                        \\"property\\": \\"color\\",
-                        \\"value\\": \\"#00B7FF\\",
-                        \\"position\\": {
-                            \\"start\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 293
+                        "type": "declaration",
+                        "property": "background",
+                        "value": "url(../img/svg/star.svg) -100px -200px no-repeat #fff",
+                        "position": {
+                            "start": {
+                                "line": 1,
+                                "column": 201
                             },
-                            \\"end\\": {
-                                \\"line\\": 1,
-                                \\"column\\": 306
+                            "end": {
+                                "line": 1,
+                                "column": 265
+                            }
+                        }
+                    },
+                    {
+                        "type": "declaration",
+                        "property": "width",
+                        "value": "100px",
+                        "position": {
+                            "start": {
+                                "line": 1,
+                                "column": 266
+                            },
+                            "end": {
+                                "line": 1,
+                                "column": 277
+                            }
+                        }
+                    },
+                    {
+                        "type": "declaration",
+                        "property": "height",
+                        "value": "100px",
+                        "position": {
+                            "start": {
+                                "line": 1,
+                                "column": 278
+                            },
+                            "end": {
+                                "line": 1,
+                                "column": 290
                             }
                         }
                     }
                 ],
-                \\"position\\": {
-                    \\"start\\": {
-                        \\"line\\": 1,
-                        \\"column\\": 291
+                "position": {
+                    "start": {
+                        "line": 1,
+                        "column": 190
                     },
-                    \\"end\\": {
-                        \\"line\\": 1,
-                        \\"column\\": 307
+                    "end": {
+                        "line": 1,
+                        "column": 291
+                    }
+                }
+            },
+            {
+                "type": "rule",
+                "selectors": [
+                    "a"
+                ],
+                "declarations": [
+                    {
+                        "type": "declaration",
+                        "property": "color",
+                        "value": "#00B7FF",
+                        "position": {
+                            "start": {
+                                "line": 1,
+                                "column": 293
+                            },
+                            "end": {
+                                "line": 1,
+                                "column": 306
+                            }
+                        }
+                    }
+                ],
+                "position": {
+                    "start": {
+                        "line": 1,
+                        "column": 291
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 307
                     }
                 }
             }
         ],
-        \\"parsingErrors\\": []
+        "parsingErrors": []
     }
 }",
   "desPath": "__tests__/build/css/style-svg-c.min.css.json",
 }
 `;
 
-exports[`__tests__/build/other/sprite.svg.json 1`] = `
-Object {
+exports[`Spritify SVG DEBUG .build() // SVG DEBUG should build SVG sprites and update css successfully (DEBUG MODE): __tests__/build/other/sprite.svg.json 1`] = `
+{
   "content": "{
-    \\"coordinates\\": {
-        \\"__tests__/fixtures/img/svg/animation.svg\\": {
-            \\"inline\\": \\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjMyMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGlkPSIxMjR4ZXpqLWIiPjxhbmltYXRlIGlkPSIxMjR4ZXpqLWEiIGF0dHJpYnV0ZU5hbWU9ImQiIHZhbHVlcz0ibTE2MCwxNjBsMCwwIDAsMDttMTMwLDExMGwzMCwtMTcgMzAsMTc7bTEzMCw2MGwzMCwtMTcgMzAsMTc7bTE2MCwyMGwwLDAgMCwwIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS13aWR0aCIgdmFsdWVzPSIwOzQ7NDs0OzAiIGR1cj0iNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBiZWdpbj0iMTI0eGV6ai1hLmJlZ2luIi8+PC9wYXRoPjxwYXRoIGlkPSIxMjR4ZXpqLWMiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9ImQiIHZhbHVlcz0ibTE2MCwxNjBsMCwwIDAsMDttMTMwLDExMGwzMCwtMTcgMzAsMTc7bTEzMCw2MGwzMCwtMTcgMzAsMTc7bTE2MCwyMGwwLDAgMCwwIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbisxcyIvPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS13aWR0aCIgdmFsdWVzPSIwOzQ7NDs0OzAiIGR1cj0iNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBiZWdpbj0iMTI0eGV6ai1hLmJlZ2luKzFzIi8+PC9wYXRoPjxwYXRoIGlkPSIxMjR4ZXpqLWQiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9ImQiIHZhbHVlcz0ibTE2MCwxNjBsMCwwIDAsMDttMTMwLDExMGwzMCwtMTcgMzAsMTc7bTEzMCw2MGwzMCwtMTcgMzAsMTc7bTE2MCwyMGwwLDAgMCwwIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbisycyIvPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS13aWR0aCIgdmFsdWVzPSIwOzQ7NDs0OzAiIGR1cj0iNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBiZWdpbj0iMTI0eGV6ai1hLmJlZ2luKzJzIi8+PC9wYXRoPjxwYXRoIGlkPSIxMjR4ZXpqLWUiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9ImQiIHZhbHVlcz0ibTE2MCwxNjBsMCwwIDAsMDttMTMwLDExMGwzMCwtMTcgMzAsMTc7bTEzMCw2MGwzMCwtMTcgMzAsMTc7bTE2MCwyMGwwLDAgMCwwIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbiszcyIvPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS13aWR0aCIgdmFsdWVzPSIwOzQ7NDs0OzAiIGR1cj0iNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBiZWdpbj0iMTI0eGV6ai1hLmJlZ2luKzNzIi8+PC9wYXRoPjxwYXRoIGlkPSIxMjR4ZXpqLWYiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9ImQiIHZhbHVlcz0ibTE2MCwxNjBsMCwwIDAsMDttMTMwLDExMGwzMCwtMTcgMzAsMTc7bTEzMCw2MGwzMCwtMTcgMzAsMTc7bTE2MCwyMGwwLDAgMCwwIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbis0cyIvPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS13aWR0aCIgdmFsdWVzPSIwOzQ7NDs0OzAiIGR1cj0iNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBiZWdpbj0iMTI0eGV6ai1hLmJlZ2luKzRzIi8+PC9wYXRoPjxwYXRoIGlkPSIxMjR4ZXpqLWciPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9ImQiIHZhbHVlcz0ibTE2MCwxNjBsMCwwIDAsMDttMTMwLDExMGwzMCwtMTcgMzAsMTc7bTEzMCw2MGwzMCwtMTcgMzAsMTc7bTE2MCwyMGwwLDAgMCwwIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbis1cyIvPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS13aWR0aCIgdmFsdWVzPSIwOzQ7NDs0OzAiIGR1cj0iNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBiZWdpbj0iMTI0eGV6ai1hLmJlZ2luKzVzIi8+PC9wYXRoPjwvZGVmcz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWIiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWIiIHRyYW5zZm9ybT0icm90YXRlKDYwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1iIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWIiIHRyYW5zZm9ybT0icm90YXRlKDE4MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYiIgdHJhbnNmb3JtPSJyb3RhdGUoMjQwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1iIiB0cmFuc2Zvcm09InJvdGF0ZSgzMDAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWMiIHRyYW5zZm9ybT0icm90YXRlKDMwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1jIiB0cmFuc2Zvcm09InJvdGF0ZSg5MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYyIgdHJhbnNmb3JtPSJyb3RhdGUoMTUwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1jIiB0cmFuc2Zvcm09InJvdGF0ZSgyMTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWMiIHRyYW5zZm9ybT0icm90YXRlKDI3MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYyIgdHJhbnNmb3JtPSJyb3RhdGUoMzMwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1kIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1kIiB0cmFuc2Zvcm09InJvdGF0ZSg2MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZCIgdHJhbnNmb3JtPSJyb3RhdGUoMTIwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1kIiB0cmFuc2Zvcm09InJvdGF0ZSgxODAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWQiIHRyYW5zZm9ybT0icm90YXRlKDI0MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZCIgdHJhbnNmb3JtPSJyb3RhdGUoMzAwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1lIiB0cmFuc2Zvcm09InJvdGF0ZSgzMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZSIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWUiIHRyYW5zZm9ybT0icm90YXRlKDE1MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZSIgdHJhbnNmb3JtPSJyb3RhdGUoMjEwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1lIiB0cmFuc2Zvcm09InJvdGF0ZSgyNzAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWUiIHRyYW5zZm9ybT0icm90YXRlKDMzMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZiIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZiIgdHJhbnNmb3JtPSJyb3RhdGUoNjAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWYiIHRyYW5zZm9ybT0icm90YXRlKDEyMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZiIgdHJhbnNmb3JtPSJyb3RhdGUoMTgwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1mIiB0cmFuc2Zvcm09InJvdGF0ZSgyNDAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWYiIHRyYW5zZm9ybT0icm90YXRlKDMwMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZyIgdHJhbnNmb3JtPSJyb3RhdGUoMzAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWciIHRyYW5zZm9ybT0icm90YXRlKDkwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1nIiB0cmFuc2Zvcm09InJvdGF0ZSgxNTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWciIHRyYW5zZm9ybT0icm90YXRlKDIxMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZyIgdHJhbnNmb3JtPSJyb3RhdGUoMjcwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1nIiB0cmFuc2Zvcm09InJvdGF0ZSgzMzAgMTYwIDE2MCkiLz48L3N2Zz4=\\",
-            \\"_svgContent\\": \\"<svg width=\\\\\\"320\\\\\\" height=\\\\\\"320\\\\\\" fill=\\\\\\"none\\\\\\" stroke=\\\\\\"#000\\\\\\" stroke-linecap=\\\\\\"round\\\\\\" xmlns=\\\\\\"http://www.w3.org/2000/svg\\\\\\" xmlns:xlink=\\\\\\"http://www.w3.org/1999/xlink\\\\\\"><defs><path id=\\\\\\"124xezj-b\\\\\\"><animate id=\\\\\\"124xezj-a\\\\\\" attributeName=\\\\\\"d\\\\\\" values=\\\\\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\"/><animate attributeName=\\\\\\"stroke-width\\\\\\" values=\\\\\\"0;4;4;4;0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin\\\\\\"/></path><path id=\\\\\\"124xezj-c\\\\\\"><animate attributeName=\\\\\\"d\\\\\\" values=\\\\\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+1s\\\\\\"/><animate attributeName=\\\\\\"stroke-width\\\\\\" values=\\\\\\"0;4;4;4;0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+1s\\\\\\"/></path><path id=\\\\\\"124xezj-d\\\\\\"><animate attributeName=\\\\\\"d\\\\\\" values=\\\\\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+2s\\\\\\"/><animate attributeName=\\\\\\"stroke-width\\\\\\" values=\\\\\\"0;4;4;4;0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+2s\\\\\\"/></path><path id=\\\\\\"124xezj-e\\\\\\"><animate attributeName=\\\\\\"d\\\\\\" values=\\\\\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+3s\\\\\\"/><animate attributeName=\\\\\\"stroke-width\\\\\\" values=\\\\\\"0;4;4;4;0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+3s\\\\\\"/></path><path id=\\\\\\"124xezj-f\\\\\\"><animate attributeName=\\\\\\"d\\\\\\" values=\\\\\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+4s\\\\\\"/><animate attributeName=\\\\\\"stroke-width\\\\\\" values=\\\\\\"0;4;4;4;0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+4s\\\\\\"/></path><path id=\\\\\\"124xezj-g\\\\\\"><animate attributeName=\\\\\\"d\\\\\\" values=\\\\\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+5s\\\\\\"/><animate attributeName=\\\\\\"stroke-width\\\\\\" values=\\\\\\"0;4;4;4;0\\\\\\" dur=\\\\\\"6s\\\\\\" repeatCount=\\\\\\"indefinite\\\\\\" begin=\\\\\\"124xezj-a.begin+5s\\\\\\"/></path></defs><use xlink:href=\\\\\\"#124xezj-b\\\\\\"/><use xlink:href=\\\\\\"#124xezj-b\\\\\\" transform=\\\\\\"rotate(60 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-b\\\\\\" transform=\\\\\\"rotate(120 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-b\\\\\\" transform=\\\\\\"rotate(180 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-b\\\\\\" transform=\\\\\\"rotate(240 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-b\\\\\\" transform=\\\\\\"rotate(300 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-c\\\\\\" transform=\\\\\\"rotate(30 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-c\\\\\\" transform=\\\\\\"rotate(90 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-c\\\\\\" transform=\\\\\\"rotate(150 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-c\\\\\\" transform=\\\\\\"rotate(210 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-c\\\\\\" transform=\\\\\\"rotate(270 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-c\\\\\\" transform=\\\\\\"rotate(330 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-d\\\\\\"/><use xlink:href=\\\\\\"#124xezj-d\\\\\\" transform=\\\\\\"rotate(60 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-d\\\\\\" transform=\\\\\\"rotate(120 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-d\\\\\\" transform=\\\\\\"rotate(180 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-d\\\\\\" transform=\\\\\\"rotate(240 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-d\\\\\\" transform=\\\\\\"rotate(300 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-e\\\\\\" transform=\\\\\\"rotate(30 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-e\\\\\\" transform=\\\\\\"rotate(90 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-e\\\\\\" transform=\\\\\\"rotate(150 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-e\\\\\\" transform=\\\\\\"rotate(210 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-e\\\\\\" transform=\\\\\\"rotate(270 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-e\\\\\\" transform=\\\\\\"rotate(330 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-f\\\\\\"/><use xlink:href=\\\\\\"#124xezj-f\\\\\\" transform=\\\\\\"rotate(60 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-f\\\\\\" transform=\\\\\\"rotate(120 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-f\\\\\\" transform=\\\\\\"rotate(180 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-f\\\\\\" transform=\\\\\\"rotate(240 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-f\\\\\\" transform=\\\\\\"rotate(300 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-g\\\\\\" transform=\\\\\\"rotate(30 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-g\\\\\\" transform=\\\\\\"rotate(90 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-g\\\\\\" transform=\\\\\\"rotate(150 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-g\\\\\\" transform=\\\\\\"rotate(210 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-g\\\\\\" transform=\\\\\\"rotate(270 160 160)\\\\\\"/><use xlink:href=\\\\\\"#124xezj-g\\\\\\" transform=\\\\\\"rotate(330 160 160)\\\\\\"/></svg>\\",
-            \\"svg\\": true,
-            \\"x\\": 0,
-            \\"y\\": 0,
-            \\"width\\": 320,
-            \\"height\\": 320
+    "coordinates": {
+        "__tests__/fixtures/img/svg/animation.svg": {
+            "inline": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjMyMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGlkPSIxMjR4ZXpqLWIiPjxhbmltYXRlIGlkPSIxMjR4ZXpqLWEiIGF0dHJpYnV0ZU5hbWU9ImQiIHZhbHVlcz0ibTE2MCwxNjBsMCwwIDAsMDttMTMwLDExMGwzMCwtMTcgMzAsMTc7bTEzMCw2MGwzMCwtMTcgMzAsMTc7bTE2MCwyMGwwLDAgMCwwIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS13aWR0aCIgdmFsdWVzPSIwOzQ7NDs0OzAiIGR1cj0iNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBiZWdpbj0iMTI0eGV6ai1hLmJlZ2luIi8+PC9wYXRoPjxwYXRoIGlkPSIxMjR4ZXpqLWMiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9ImQiIHZhbHVlcz0ibTE2MCwxNjBsMCwwIDAsMDttMTMwLDExMGwzMCwtMTcgMzAsMTc7bTEzMCw2MGwzMCwtMTcgMzAsMTc7bTE2MCwyMGwwLDAgMCwwIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbisxcyIvPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS13aWR0aCIgdmFsdWVzPSIwOzQ7NDs0OzAiIGR1cj0iNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBiZWdpbj0iMTI0eGV6ai1hLmJlZ2luKzFzIi8+PC9wYXRoPjxwYXRoIGlkPSIxMjR4ZXpqLWQiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9ImQiIHZhbHVlcz0ibTE2MCwxNjBsMCwwIDAsMDttMTMwLDExMGwzMCwtMTcgMzAsMTc7bTEzMCw2MGwzMCwtMTcgMzAsMTc7bTE2MCwyMGwwLDAgMCwwIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbisycyIvPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS13aWR0aCIgdmFsdWVzPSIwOzQ7NDs0OzAiIGR1cj0iNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBiZWdpbj0iMTI0eGV6ai1hLmJlZ2luKzJzIi8+PC9wYXRoPjxwYXRoIGlkPSIxMjR4ZXpqLWUiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9ImQiIHZhbHVlcz0ibTE2MCwxNjBsMCwwIDAsMDttMTMwLDExMGwzMCwtMTcgMzAsMTc7bTEzMCw2MGwzMCwtMTcgMzAsMTc7bTE2MCwyMGwwLDAgMCwwIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbiszcyIvPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS13aWR0aCIgdmFsdWVzPSIwOzQ7NDs0OzAiIGR1cj0iNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBiZWdpbj0iMTI0eGV6ai1hLmJlZ2luKzNzIi8+PC9wYXRoPjxwYXRoIGlkPSIxMjR4ZXpqLWYiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9ImQiIHZhbHVlcz0ibTE2MCwxNjBsMCwwIDAsMDttMTMwLDExMGwzMCwtMTcgMzAsMTc7bTEzMCw2MGwzMCwtMTcgMzAsMTc7bTE2MCwyMGwwLDAgMCwwIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbis0cyIvPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS13aWR0aCIgdmFsdWVzPSIwOzQ7NDs0OzAiIGR1cj0iNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBiZWdpbj0iMTI0eGV6ai1hLmJlZ2luKzRzIi8+PC9wYXRoPjxwYXRoIGlkPSIxMjR4ZXpqLWciPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9ImQiIHZhbHVlcz0ibTE2MCwxNjBsMCwwIDAsMDttMTMwLDExMGwzMCwtMTcgMzAsMTc7bTEzMCw2MGwzMCwtMTcgMzAsMTc7bTE2MCwyMGwwLDAgMCwwIiBkdXI9IjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjEyNHhlemotYS5iZWdpbis1cyIvPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InN0cm9rZS13aWR0aCIgdmFsdWVzPSIwOzQ7NDs0OzAiIGR1cj0iNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBiZWdpbj0iMTI0eGV6ai1hLmJlZ2luKzVzIi8+PC9wYXRoPjwvZGVmcz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWIiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWIiIHRyYW5zZm9ybT0icm90YXRlKDYwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1iIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWIiIHRyYW5zZm9ybT0icm90YXRlKDE4MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYiIgdHJhbnNmb3JtPSJyb3RhdGUoMjQwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1iIiB0cmFuc2Zvcm09InJvdGF0ZSgzMDAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWMiIHRyYW5zZm9ybT0icm90YXRlKDMwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1jIiB0cmFuc2Zvcm09InJvdGF0ZSg5MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYyIgdHJhbnNmb3JtPSJyb3RhdGUoMTUwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1jIiB0cmFuc2Zvcm09InJvdGF0ZSgyMTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWMiIHRyYW5zZm9ybT0icm90YXRlKDI3MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotYyIgdHJhbnNmb3JtPSJyb3RhdGUoMzMwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1kIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1kIiB0cmFuc2Zvcm09InJvdGF0ZSg2MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZCIgdHJhbnNmb3JtPSJyb3RhdGUoMTIwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1kIiB0cmFuc2Zvcm09InJvdGF0ZSgxODAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWQiIHRyYW5zZm9ybT0icm90YXRlKDI0MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZCIgdHJhbnNmb3JtPSJyb3RhdGUoMzAwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1lIiB0cmFuc2Zvcm09InJvdGF0ZSgzMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZSIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWUiIHRyYW5zZm9ybT0icm90YXRlKDE1MCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZSIgdHJhbnNmb3JtPSJyb3RhdGUoMjEwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1lIiB0cmFuc2Zvcm09InJvdGF0ZSgyNzAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWUiIHRyYW5zZm9ybT0icm90YXRlKDMzMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZiIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZiIgdHJhbnNmb3JtPSJyb3RhdGUoNjAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWYiIHRyYW5zZm9ybT0icm90YXRlKDEyMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZiIgdHJhbnNmb3JtPSJyb3RhdGUoMTgwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1mIiB0cmFuc2Zvcm09InJvdGF0ZSgyNDAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWYiIHRyYW5zZm9ybT0icm90YXRlKDMwMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZyIgdHJhbnNmb3JtPSJyb3RhdGUoMzAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWciIHRyYW5zZm9ybT0icm90YXRlKDkwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1nIiB0cmFuc2Zvcm09InJvdGF0ZSgxNTAgMTYwIDE2MCkiLz48dXNlIHhsaW5rOmhyZWY9IiMxMjR4ZXpqLWciIHRyYW5zZm9ybT0icm90YXRlKDIxMCAxNjAgMTYwKSIvPjx1c2UgeGxpbms6aHJlZj0iIzEyNHhlemotZyIgdHJhbnNmb3JtPSJyb3RhdGUoMjcwIDE2MCAxNjApIi8+PHVzZSB4bGluazpocmVmPSIjMTI0eGV6ai1nIiB0cmFuc2Zvcm09InJvdGF0ZSgzMzAgMTYwIDE2MCkiLz48L3N2Zz4=",
+            "_svgContent": "<svg width=\\"320\\" height=\\"320\\" fill=\\"none\\" stroke=\\"#000\\" stroke-linecap=\\"round\\" xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\"><defs><path id=\\"124xezj-b\\"><animate id=\\"124xezj-a\\" attributeName=\\"d\\" values=\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\" dur=\\"6s\\" repeatCount=\\"indefinite\\"/><animate attributeName=\\"stroke-width\\" values=\\"0;4;4;4;0\\" dur=\\"6s\\" repeatCount=\\"indefinite\\" begin=\\"124xezj-a.begin\\"/></path><path id=\\"124xezj-c\\"><animate attributeName=\\"d\\" values=\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\" dur=\\"6s\\" repeatCount=\\"indefinite\\" begin=\\"124xezj-a.begin+1s\\"/><animate attributeName=\\"stroke-width\\" values=\\"0;4;4;4;0\\" dur=\\"6s\\" repeatCount=\\"indefinite\\" begin=\\"124xezj-a.begin+1s\\"/></path><path id=\\"124xezj-d\\"><animate attributeName=\\"d\\" values=\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\" dur=\\"6s\\" repeatCount=\\"indefinite\\" begin=\\"124xezj-a.begin+2s\\"/><animate attributeName=\\"stroke-width\\" values=\\"0;4;4;4;0\\" dur=\\"6s\\" repeatCount=\\"indefinite\\" begin=\\"124xezj-a.begin+2s\\"/></path><path id=\\"124xezj-e\\"><animate attributeName=\\"d\\" values=\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\" dur=\\"6s\\" repeatCount=\\"indefinite\\" begin=\\"124xezj-a.begin+3s\\"/><animate attributeName=\\"stroke-width\\" values=\\"0;4;4;4;0\\" dur=\\"6s\\" repeatCount=\\"indefinite\\" begin=\\"124xezj-a.begin+3s\\"/></path><path id=\\"124xezj-f\\"><animate attributeName=\\"d\\" values=\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\" dur=\\"6s\\" repeatCount=\\"indefinite\\" begin=\\"124xezj-a.begin+4s\\"/><animate attributeName=\\"stroke-width\\" values=\\"0;4;4;4;0\\" dur=\\"6s\\" repeatCount=\\"indefinite\\" begin=\\"124xezj-a.begin+4s\\"/></path><path id=\\"124xezj-g\\"><animate attributeName=\\"d\\" values=\\"m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0\\" dur=\\"6s\\" repeatCount=\\"indefinite\\" begin=\\"124xezj-a.begin+5s\\"/><animate attributeName=\\"stroke-width\\" values=\\"0;4;4;4;0\\" dur=\\"6s\\" repeatCount=\\"indefinite\\" begin=\\"124xezj-a.begin+5s\\"/></path></defs><use xlink:href=\\"#124xezj-b\\"/><use xlink:href=\\"#124xezj-b\\" transform=\\"rotate(60 160 160)\\"/><use xlink:href=\\"#124xezj-b\\" transform=\\"rotate(120 160 160)\\"/><use xlink:href=\\"#124xezj-b\\" transform=\\"rotate(180 160 160)\\"/><use xlink:href=\\"#124xezj-b\\" transform=\\"rotate(240 160 160)\\"/><use xlink:href=\\"#124xezj-b\\" transform=\\"rotate(300 160 160)\\"/><use xlink:href=\\"#124xezj-c\\" transform=\\"rotate(30 160 160)\\"/><use xlink:href=\\"#124xezj-c\\" transform=\\"rotate(90 160 160)\\"/><use xlink:href=\\"#124xezj-c\\" transform=\\"rotate(150 160 160)\\"/><use xlink:href=\\"#124xezj-c\\" transform=\\"rotate(210 160 160)\\"/><use xlink:href=\\"#124xezj-c\\" transform=\\"rotate(270 160 160)\\"/><use xlink:href=\\"#124xezj-c\\" transform=\\"rotate(330 160 160)\\"/><use xlink:href=\\"#124xezj-d\\"/><use xlink:href=\\"#124xezj-d\\" transform=\\"rotate(60 160 160)\\"/><use xlink:href=\\"#124xezj-d\\" transform=\\"rotate(120 160 160)\\"/><use xlink:href=\\"#124xezj-d\\" transform=\\"rotate(180 160 160)\\"/><use xlink:href=\\"#124xezj-d\\" transform=\\"rotate(240 160 160)\\"/><use xlink:href=\\"#124xezj-d\\" transform=\\"rotate(300 160 160)\\"/><use xlink:href=\\"#124xezj-e\\" transform=\\"rotate(30 160 160)\\"/><use xlink:href=\\"#124xezj-e\\" transform=\\"rotate(90 160 160)\\"/><use xlink:href=\\"#124xezj-e\\" transform=\\"rotate(150 160 160)\\"/><use xlink:href=\\"#124xezj-e\\" transform=\\"rotate(210 160 160)\\"/><use xlink:href=\\"#124xezj-e\\" transform=\\"rotate(270 160 160)\\"/><use xlink:href=\\"#124xezj-e\\" transform=\\"rotate(330 160 160)\\"/><use xlink:href=\\"#124xezj-f\\"/><use xlink:href=\\"#124xezj-f\\" transform=\\"rotate(60 160 160)\\"/><use xlink:href=\\"#124xezj-f\\" transform=\\"rotate(120 160 160)\\"/><use xlink:href=\\"#124xezj-f\\" transform=\\"rotate(180 160 160)\\"/><use xlink:href=\\"#124xezj-f\\" transform=\\"rotate(240 160 160)\\"/><use xlink:href=\\"#124xezj-f\\" transform=\\"rotate(300 160 160)\\"/><use xlink:href=\\"#124xezj-g\\" transform=\\"rotate(30 160 160)\\"/><use xlink:href=\\"#124xezj-g\\" transform=\\"rotate(90 160 160)\\"/><use xlink:href=\\"#124xezj-g\\" transform=\\"rotate(150 160 160)\\"/><use xlink:href=\\"#124xezj-g\\" transform=\\"rotate(210 160 160)\\"/><use xlink:href=\\"#124xezj-g\\" transform=\\"rotate(270 160 160)\\"/><use xlink:href=\\"#124xezj-g\\" transform=\\"rotate(330 160 160)\\"/></svg>",
+            "svg": true,
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 320
         },
-        \\"__tests__/fixtures/img/svg/spiral.svg\\": {
-            \\"inline\\": \\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCI+PGRlZnMvPjxnPjxwYXRoIGQ9Ik0yOS42MzYgMzAuMzY0Yy45NjcgMS4yMTItMS4xNTcgMS45LTIuMDE1IDEuNjA2LTIuMzI0LS43OTktMi4zNjItMy44OTUtMS4xOTctNS42MzcgMi4wODUtMy4xMTQgNi41Ny0zIDkuMjU4LS43ODggMy45NDQgMy4yNDggMy42NjIgOS4yODMuMzc5IDEyLjg4LTQuMzc3IDQuNzkyLTEyLjAxIDQuMzM0LTE2LjUtLjAzMUMxMy45MSAzMi45IDE0LjU0OCAyMy42NSAyMCAxOC4yNzNjNi42MDMtNi41MTQgMTcuNDgtNS42OTMgMjMuNzQyLjg0OCA3LjM4IDcuNzEgNi4zNzYgMjAuMjItMS4yNTcgMjcuMzY0LTguODEzIDguMjQ4LTIyLjk2IDcuMDYtMzAuOTg1LTEuNjY3LTkuMTE4LTkuOTE2LTcuNzQ1LTI1LjcwMiAyLjA3Ni0zNC42MDZDMjQuNTkzLjIyMyA0Mi4wMiAxLjc4MiA1MS44MDMgMTIuNjk3YzEwLjg2IDEyLjExOCA5LjExNyAzMS4xODgtMi44OTQgNDEuODQ4IiBmaWxsPSIjZDM4ZDVmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZT0iIzAwMCIvPjwvZz48L3N2Zz4=\\",
-            \\"_svgContent\\": \\"<svg xmlns=\\\\\\"http://www.w3.org/2000/svg\\\\\\" width=\\\\\\"64\\\\\\" height=\\\\\\"64\\\\\\"><defs/><g><path d=\\\\\\"M29.636 30.364c.967 1.212-1.157 1.9-2.015 1.606-2.324-.799-2.362-3.895-1.197-5.637 2.085-3.114 6.57-3 9.258-.788 3.944 3.248 3.662 9.283.379 12.88-4.377 4.792-12.01 4.334-16.5-.031C13.91 32.9 14.548 23.65 20 18.273c6.603-6.514 17.48-5.693 23.742.848 7.38 7.71 6.376 20.22-1.257 27.364-8.813 8.248-22.96 7.06-30.985-1.667-9.118-9.916-7.745-25.702 2.076-34.606C24.593.223 42.02 1.782 51.803 12.697c10.86 12.118 9.117 31.188-2.894 41.848\\\\\\" fill=\\\\\\"#d38d5f\\\\\\" fill-rule=\\\\\\"evenodd\\\\\\" stroke=\\\\\\"#000\\\\\\"/></g></svg>\\",
-            \\"svg\\": true,
-            \\"x\\": 0,
-            \\"y\\": -320,
-            \\"width\\": 64,
-            \\"height\\": 64
+        "__tests__/fixtures/img/svg/spiral.svg": {
+            "inline": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCI+PGRlZnMvPjxnPjxwYXRoIGQ9Ik0yOS42MzYgMzAuMzY0Yy45NjcgMS4yMTItMS4xNTcgMS45LTIuMDE1IDEuNjA2LTIuMzI0LS43OTktMi4zNjItMy44OTUtMS4xOTctNS42MzcgMi4wODUtMy4xMTQgNi41Ny0zIDkuMjU4LS43ODggMy45NDQgMy4yNDggMy42NjIgOS4yODMuMzc5IDEyLjg4LTQuMzc3IDQuNzkyLTEyLjAxIDQuMzM0LTE2LjUtLjAzMUMxMy45MSAzMi45IDE0LjU0OCAyMy42NSAyMCAxOC4yNzNjNi42MDMtNi41MTQgMTcuNDgtNS42OTMgMjMuNzQyLjg0OCA3LjM4IDcuNzEgNi4zNzYgMjAuMjItMS4yNTcgMjcuMzY0LTguODEzIDguMjQ4LTIyLjk2IDcuMDYtMzAuOTg1LTEuNjY3LTkuMTE4LTkuOTE2LTcuNzQ1LTI1LjcwMiAyLjA3Ni0zNC42MDZDMjQuNTkzLjIyMyA0Mi4wMiAxLjc4MiA1MS44MDMgMTIuNjk3YzEwLjg2IDEyLjExOCA5LjExNyAzMS4xODgtMi44OTQgNDEuODQ4IiBmaWxsPSIjZDM4ZDVmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZT0iIzAwMCIvPjwvZz48L3N2Zz4=",
+            "_svgContent": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"64\\" height=\\"64\\"><defs/><g><path d=\\"M29.636 30.364c.967 1.212-1.157 1.9-2.015 1.606-2.324-.799-2.362-3.895-1.197-5.637 2.085-3.114 6.57-3 9.258-.788 3.944 3.248 3.662 9.283.379 12.88-4.377 4.792-12.01 4.334-16.5-.031C13.91 32.9 14.548 23.65 20 18.273c6.603-6.514 17.48-5.693 23.742.848 7.38 7.71 6.376 20.22-1.257 27.364-8.813 8.248-22.96 7.06-30.985-1.667-9.118-9.916-7.745-25.702 2.076-34.606C24.593.223 42.02 1.782 51.803 12.697c10.86 12.118 9.117 31.188-2.894 41.848\\" fill=\\"#d38d5f\\" fill-rule=\\"evenodd\\" stroke=\\"#000\\"/></g></svg>",
+            "svg": true,
+            "x": 0,
+            "y": -320,
+            "width": 64,
+            "height": 64
         },
-        \\"__tests__/fixtures/img/svg/star.svg\\": {
-            \\"inline\\": \\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCI+PGRlZnMvPjxnPjxwYXRoIGQ9Ik00OS4wOSA1OC4zNjRMMzEgNDguMTcybC0xOC42NSA5LjEyNSA0LjEwMi0yMC4zNTRMMi4wMTEgMjIuMDI1bDIwLjYyNS0yLjM4OSA5LjcyNi0xOC4zNDQgOC42NDUgMTguODc4IDIwLjQ1MiAzLjU4LTE1LjI4MyAxNC4wNTZ6IiBmaWxsPSIjZmZiMzgwIi8+PC9nPjwvc3ZnPg==\\",
-            \\"_svgContent\\": \\"<svg xmlns=\\\\\\"http://www.w3.org/2000/svg\\\\\\" width=\\\\\\"64\\\\\\" height=\\\\\\"64\\\\\\"><defs/><g><path d=\\\\\\"M49.09 58.364L31 48.172l-18.65 9.125 4.102-20.354L2.011 22.025l20.625-2.389 9.726-18.344 8.645 18.878 20.452 3.58-15.283 14.056z\\\\\\" fill=\\\\\\"#ffb380\\\\\\"/></g></svg>\\",
-            \\"svg\\": true,
-            \\"x\\": 0,
-            \\"y\\": -384,
-            \\"width\\": 64,
-            \\"height\\": 64
+        "__tests__/fixtures/img/svg/star.svg": {
+            "inline": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCI+PGRlZnMvPjxnPjxwYXRoIGQ9Ik00OS4wOSA1OC4zNjRMMzEgNDguMTcybC0xOC42NSA5LjEyNSA0LjEwMi0yMC4zNTRMMi4wMTEgMjIuMDI1bDIwLjYyNS0yLjM4OSA5LjcyNi0xOC4zNDQgOC42NDUgMTguODc4IDIwLjQ1MiAzLjU4LTE1LjI4MyAxNC4wNTZ6IiBmaWxsPSIjZmZiMzgwIi8+PC9nPjwvc3ZnPg==",
+            "_svgContent": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"64\\" height=\\"64\\"><defs/><g><path d=\\"M49.09 58.364L31 48.172l-18.65 9.125 4.102-20.354L2.011 22.025l20.625-2.389 9.726-18.344 8.645 18.878 20.452 3.58-15.283 14.056z\\" fill=\\"#ffb380\\"/></g></svg>",
+            "svg": true,
+            "x": 0,
+            "y": -384,
+            "width": 64,
+            "height": 64
         }
     },
-    \\"width\\": 320,
-    \\"height\\": 448
+    "width": 320,
+    "height": 448
 }",
   "desPath": "__tests__/build/other/sprite.svg.json",
 }
